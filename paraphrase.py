@@ -16,13 +16,13 @@ def create_trans_df(f_name: str) -> pd.DataFrame:
     sl_f = pd.read_csv(f"aligned/sl_{f_name}.txt", header=None, sep="\n", encoding="utf-8")
     en_f = pd.read_csv(f"aligned/en_{f_name}.txt", header=None, sep="\n")
     para_df = pd.DataFrame(index=[0], columns=["sl_source", "en_source", "sl_trans"])
-    for i, row in en_f.loc[:10, :].iterrows():
+    for i, row in en_f.iterrows():
         sl_trans = translator.translate_text(row[0], source_lang="EN", target_lang="SL").text
         para_df.loc[i] = [sl_f.loc[i, 0], row[0], sl_trans]
     return para_df 
 
 
-f_suffix = "ab"
+f_suffix = "ct"
 para_df = create_trans_df(f_suffix)
 para_df_clean = para_df.applymap(lambda x: re.sub("^-", "", x).strip())
 # remove entries with identical translations
