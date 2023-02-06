@@ -22,7 +22,6 @@ def create_trans_df(f_name: str) -> pd.DataFrame:
         para_df.loc[i] = [sl_f.loc[i, 0], row[0], sl_trans]
     return para_df 
 
-
 f_suffix = "zh"
 para_df = create_trans_df(f_suffix)
 para_df_clean = para_df.applymap(lambda x: re.sub("^-", "", x).strip())
@@ -30,5 +29,3 @@ para_df_clean = para_df.applymap(lambda x: re.sub("^-", "", x).strip())
 para_df_unique = para_df_clean.loc[para_df_clean["sl_source"] != para_df_clean["sl_trans"], :]
 with open(f"interim/paras_{f_suffix}.json", "w", encoding="utf-8") as f:
     json.dump(para_df_unique.to_dict(orient="index"), f, ensure_ascii=False)
-
-
