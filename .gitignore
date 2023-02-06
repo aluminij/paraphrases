@@ -1,7 +1,4 @@
 /.env
 /aligned
-/etc
-/Lestvica_za_leto_2022.docx
-/Seznam_prejemnikov_za_leto_2021-preliminarni_podatki.xlsx
-/splits_en
-/splits_sl
+/raw
+/interim
