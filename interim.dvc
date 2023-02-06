@@ -1,5 +1,5 @@
 outs:
-- md5: ec2501a42d33adc816fc05012c0ec37f.dir
-  size: 150339
-  nfiles: 4
+- md5: 168c3c40e031aece0759b88649819afa.dir
+  size: 928760
+  nfiles: 10
   path: interim
