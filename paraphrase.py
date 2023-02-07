@@ -57,7 +57,7 @@ en_df = pd.read_csv(f"formatted/en_{f_suffix}_fmt.txt", header=None, sep="\n|\r\
 
 para_df = create_trans_df(sl_df, en_df, f_suffix)
 # remove entries with identical translations
-with open(f"interim/paras_{f_suffix}2.json", "w", encoding="utf-8") as f:
+with open(f"interim/paras_{f_suffix}.json", "w", encoding="utf-8") as f:
     json.dump(para_df.to_dict(orient="index"), f, ensure_ascii=False)
 
 
