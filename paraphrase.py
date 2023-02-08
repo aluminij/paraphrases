@@ -24,7 +24,7 @@ def split_text(f_name: str, lang: str="en") -> pd.DataFrame:
     #TODO: exclude Mr., Mrs. and such special cases. 
     """
     df = read_aligned(f_name, lang)
-    df_clean = df.apply(lambda x: x.replace(r'^\s*\"*\s*\-*\s*', '', regex=True).replace(r"\.{2,}\s*$", ".", regex=True).replace(r"\.{2,}", "", regex=True))
+    df_clean = df.apply(lambda x: x.replace(r'^\s*\-*\s*', '', regex=True).replace(r"\.{2,}\s*$", ".", regex=True).replace(r"\.{2,}", "", regex=True))
     df_split = pd.DataFrame(columns=["line"])
     j = 0
     for i, row in df_clean.iterrows():
