@@ -45,7 +45,7 @@ def create_trans_df(sl_df: pd.DataFrame, en_df: pd.DataFrame, f_name: str) -> pd
     para_df = pd.DataFrame(index=[0], columns=["sl_source", "en_source", "sl_trans"])
     for i, row in en_df.iterrows():
         sl_trans = translator.translate_text(row[0], source_lang="EN", target_lang="SL").text
-        if sl_df.loc[i, 0] != sl_trans:
+        if re.sub(r'\W+', '', sl_df.loc[i,0]) != re.sub(r'\W+', '', sl_trans):
             para_df.loc[i] = [sl_df.loc[i, 0], row[0], sl_trans]
     return para_df.dropna(how="all") 
 
