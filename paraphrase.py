@@ -4,6 +4,7 @@ import os
 import pandas as pd
 import re
 from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 translator = deepl.Translator(os.getenv("AUTH_KEY"))
@@ -24,7 +25,7 @@ def split_text(f_name: str, lang: str="en") -> pd.DataFrame:
     #TODO: exclude Mr., Mrs. and such special cases. 
     """
     df = read_aligned(f_name, lang)
-    df_clean = df.apply(lambda x: x.replace(r'^\s*\-*\s*', '', regex=True).replace(r"\.{2,}\s*$", ".", regex=True).replace(r"\.{2,}", "", regex=True))
+    df_clean = df.apply(lambda x: x.replace(r'^\s*\-*\s*', '', regex=True).replace(r"\.{2,}\s*$", ".", regex=True).replace(r"\.{2,}", '', regex=True))
     df_split = pd.DataFrame(columns=["line"])
     j = 0
     for i, row in df_clean.iterrows():
@@ -50,7 +51,21 @@ def create_trans_df(sl_df: pd.DataFrame, en_df: pd.DataFrame, f_name: str) -> pd
     return para_df.dropna(how="all") 
 
 
-f_suffix = "ml"
+def compare_phrases(f_name: str):
+    model = SentenceTransformer('sentence-transformers/LaBSE')
+    with open(f'interim/paras_{f_name}.json', encoding="utf-8") as json_file:
+        d = json.load(json_file)
+    for k, v in d.items():
+        s = [v["sl_source"], v["sl_trans"]]
+        e = model.encode(s)
+        print(e)
+
+
+    d = json.load(f"interim/paras_{f_name}")
+
+
+f_suffix = "fq"
+compare_phrases(f_suffix)
 #split_text(f_suffix)
 #split_text(f_suffix, lang="sl")
 
