@@ -1,0 +1,3252 @@
+{
+    "1": {
+        "sl_source": "Si tukaj?",
+        "en_source": "Are you out there?",
+        "sl_trans": "Ali ste tam zunaj?"
+    },
+    "3": {
+        "sl_source": "–Je moja mama?",
+        "en_source": "Is it my mom?",
+        "sl_trans": "Je to moja mama?"
+    },
+    "4": {
+        "sl_source": "Ne, ni tvoja mama.",
+        "en_source": "No, it isn't your mother.",
+        "sl_trans": "Ne, to ni tvoja mati."
+    },
+    "5": {
+        "sl_source": "Obstaja razlog, zakaj sem nehala to početi.",
+        "en_source": "There's a reason I had to stop doing this.",
+        "sl_trans": "To sem moral nehati početi iz nekega razloga."
+    },
+    "6": {
+        "sl_source": "Tudi drugi se ukvarjajo s tem.",
+        "en_source": "There's other people that do this.",
+        "sl_trans": "To počnejo tudi drugi ljudje."
+    },
+    "7": {
+        "sl_source": "Morala jih boš poiskati.",
+        "en_source": "You have to find one of them.",
+        "sl_trans": "Poiskati morate enega od njih."
+    },
+    "8": {
+        "sl_source": "Vse bo v redu s tabo, Quinn.",
+        "en_source": "You're gonna be okay, Quinn.",
+        "sl_trans": "Vse bo v redu, Quinn."
+    },
+    "9": {
+        "sl_source": "Ampak poslušaj moj nasvet in ne poskušaj več sama navezati stika s svojo mamo.",
+        "en_source": "But take my advice and do not try to contact your mother on your own anymore.",
+        "sl_trans": "Vendar upoštevajte moj nasvet in ne poskušajte več sami stopiti v stik z materjo."
+    },
+    "10": {
+        "sl_source": "Zelo previdna moraš biti.",
+        "en_source": "You have to be very careful.",
+        "sl_trans": "Biti morate zelo previdni."
+    },
+    "11": {
+        "sl_source": "Kadar kličeš enega od mrtvih, te lahko slišijo vsi.",
+        "en_source": "If you call out to one of the dead, all of them can hear you.",
+        "sl_trans": "Če pokličete enega od mrtvih, vas lahko slišijo vsi."
+    },
+    "12": {
+        "sl_source": "Si tukaj?",
+        "en_source": "Are you there?",
+        "sl_trans": "Ste tam?"
+    },
+    "14": {
+        "sl_source": "Si tukaj?",
+        "en_source": "Are you there?",
+        "sl_trans": "Ste tam?"
+    },
+    "20": {
+        "sl_source": "Ne morem biti istočasno na dveh krajih.",
+        "en_source": "What I mean is that I can't be in two places at the same time.",
+        "sl_trans": "Hočem reči, da ne morem biti na dveh mestih hkrati."
+    },
+    "21": {
+        "sl_source": "Celotno napeljavo bo treba spremeniti.",
+        "en_source": "Yeah, the whole building needs to be rewired.",
+        "sl_trans": "Ja, celotno stavbo je treba na novo napeljati."
+    },
+    "22": {
+        "sl_source": "Prvotni izvajalci so zamočili.",
+        "en_source": "The original guys really screwed it.",
+        "sl_trans": "Prvotni fantje so jo res pokvarili."
+    },
+    "23": {
+        "sl_source": "To je cel dodaten dan dela zame.",
+        "en_source": "You know, that's an entire extra day of work for me.",
+        "sl_trans": "Veste, to je zame cel dodaten delovni dan."
+    },
+    "24": {
+        "sl_source": "Si razumel to?",
+        "en_source": "You got that, right?",
+        "sl_trans": "To ste razumeli, kajne?"
+    },
+    "26": {
+        "sl_source": "Nobene hrane ni.",
+        "en_source": "There's no food.",
+        "sl_trans": "Hrane ni."
+    },
+    "27": {
+        "sl_source": "Nisi šla v trgovino?",
+        "en_source": "Didn't you go to the grocery?",
+        "sl_trans": "Ali niste šli v trgovino?"
+    },
+    "28": {
+        "sl_source": "Sem.",
+        "en_source": "Yeah, I did.",
+        "sl_trans": "Ja, to sem storil."
+    },
+    "29": {
+        "sl_source": "–In kaj si kupila?",
+        "en_source": "Well, what did you get?",
+        "sl_trans": "Kaj ste dobili?"
+    },
+    "33": {
+        "sl_source": "Ja, seveda ga bom poklical.",
+        "en_source": "Yeah, of course, I'm gonna call the guy.",
+        "sl_trans": "Ja, seveda, poklical ga bom."
+    },
+    "34": {
+        "sl_source": "Moram dobiti ta del.",
+        "en_source": "I gotta get the part.",
+        "sl_trans": "Moram dobiti del."
+    },
+    "35": {
+        "sl_source": "Počakaj malo, Bill.",
+        "en_source": "Hang on, Bill.",
+        "sl_trans": "Počakaj, Bill."
+    },
+    "36": {
+        "sl_source": "Kaj počneš?",
+        "en_source": "What are you doing?",
+        "sl_trans": "Kaj počnete?"
+    },
+    "37": {
+        "sl_source": "–Slikam.",
+        "en_source": "I'm taking a photo.",
+        "sl_trans": "Fotografiram."
+    },
+    "39": {
+        "sl_source": "–Za svoj blog.",
+        "en_source": "Dad, it's for my blog.",
+        "sl_trans": "Oče, to je za moj blog."
+    },
+    "40": {
+        "sl_source": "Ničesar ne razumem.",
+        "en_source": "None of what you just said to me makes any sense.",
+        "sl_trans": "Nič od tega, kar ste mi pravkar povedali, nima smisla."
+    },
+    "41": {
+        "sl_source": "Tako je tudi prav.",
+        "en_source": "It's not supposed to.",
+        "sl_trans": "To ni predvideno."
+    },
+    "43": {
+        "sl_source": "Kaj pa če hrane ne bi blogala",
+        "en_source": "Well, how about don't blog it?",
+        "sl_trans": "Kaj pa, če ne bi pisali bloga?"
+    },
+    "44": {
+        "sl_source": "Samo pojedla bi jo.",
+        "en_source": "Just eat it.",
+        "sl_trans": "Preprosto ga pojejte."
+    },
+    "45": {
+        "sl_source": "Odličen napis za majico.",
+        "en_source": "That's a great T-shirt.",
+        "sl_trans": "To je odlična majica."
+    },
+    "46": {
+        "sl_source": "Čudna si.",
+        "en_source": "You're weird.",
+        "sl_trans": "Čuden si."
+    },
+    "47": {
+        "sl_source": "Čudna oseba si.",
+        "en_source": "You're such a weird person.",
+        "sl_trans": "Ti si tako čudna oseba."
+    },
+    "48": {
+        "sl_source": "Nikogar ne zanima, kaj jeva za zajtrk.",
+        "en_source": "You know, nobody cares what you're having for breakfast.",
+        "sl_trans": "Veste, nikogar ne zanima, kaj ste jedli za zajtrk."
+    },
+    "49": {
+        "sl_source": "Pripravi brata za v šolo, prosim.",
+        "en_source": "Will you just go get your brother ready for school, please?",
+        "sl_trans": "Boš šla pripraviti brata za šolo, prosim?"
+    },
+    "52": {
+        "sl_source": "–Kaj je?",
+        "en_source": "What?",
+        "sl_trans": "Kaj?"
+    },
+    "53": {
+        "sl_source": "Vstani.",
+        "en_source": "Get up.",
+        "sl_trans": "Vstanite."
+    },
+    "54": {
+        "sl_source": "Pripravi se za v šolo.",
+        "en_source": "Get ready for school.",
+        "sl_trans": "Pripravite se na šolo."
+    },
+    "55": {
+        "sl_source": "–Saj sem že.",
+        "en_source": "I am.",
+        "sl_trans": "Jaz sem."
+    },
+    "56": {
+        "sl_source": "Kako smrdi tukaj.",
+        "en_source": "God, it stinks in here.",
+        "sl_trans": "Bog, tu smrdi."
+    },
+    "58": {
+        "sl_source": "V redu, grem pa po očeta.",
+        "en_source": "Okay, fine, I'll tell dad.",
+        "sl_trans": "Okej, v redu, očetu bom povedala."
+    },
+    "59": {
+        "sl_source": "Ne moreš malo počakati?",
+        "en_source": "Can you hold on a second?",
+        "sl_trans": "Ali lahko počakate sekundo?"
+    },
+    "61": {
+        "sl_source": "Tega ne bom nikoli pozabila.",
+        "en_source": "I'll never forget this.",
+        "sl_trans": "Tega ne bom nikoli pozabil."
+    },
+    "62": {
+        "sl_source": "Šel boš do konca sveta in tam te bom čakala.",
+        "en_source": "You'll go to the end of the world, and you'll find me waiting there.",
+        "sl_trans": "Šel boš na konec sveta in tam me boš našel."
+    },
+    "63": {
+        "sl_source": "Tvoja služabnica.",
+        "en_source": "Your servant.",
+        "sl_trans": "Vaš služabnik."
+    },
+    "64": {
+        "sl_source": "Vedno te bom čakala.",
+        "en_source": "You'll always find me waiting there.",
+        "sl_trans": "Vedno me boš našel tam."
+    },
+    "66": {
+        "sl_source": "Tega ne bom pozabila.",
+        "en_source": "I'll never forget this.",
+        "sl_trans": "Tega ne bom nikoli pozabil."
+    },
+    "67": {
+        "sl_source": "V redu, saj bom.",
+        "en_source": "All right, all right.",
+        "sl_trans": "V redu, v redu."
+    },
+    "68": {
+        "sl_source": "Že hitim.",
+        "en_source": "I'm hurrying.",
+        "sl_trans": "Mudi se mi."
+    },
+    "69": {
+        "sl_source": "V redu, adijo.",
+        "en_source": "Right, Bye.",
+        "sl_trans": "Jasno, Pa."
+    },
+    "70": {
+        "sl_source": "Zakaj je tišina?",
+        "en_source": "Why is it quiet?",
+        "sl_trans": "Zakaj je tiho?"
+    },
+    "71": {
+        "sl_source": "Tišina ni v redu.",
+        "en_source": "Quiet's not good.",
+        "sl_trans": "Tišina ni dobra."
+    },
+    "73": {
+        "sl_source": "Tak je, preden te nažgem po riti.",
+        "en_source": "This is my whoop-ass face.",
+        "sl_trans": "To je moj obraz."
+    },
+    "74": {
+        "sl_source": "Ko ga vidiš, veš, da jih boš dobil.",
+        "en_source": "When you see this face, it means I'm about to whoop ass.",
+        "sl_trans": "Ko vidiš ta obraz, pomeni, da ti bom nakopal rit."
+    },
+    "75": {
+        "sl_source": "Pripravi se.",
+        "en_source": "Get ready.",
+        "sl_trans": "Pripravite se."
+    },
+    "76": {
+        "sl_source": "Gremo.",
+        "en_source": "Come on.",
+        "sl_trans": "Dajmo."
+    },
+    "77": {
+        "sl_source": "Dal si mi življenje, ko sem umirala.",
+        "en_source": "You gave me life when I was dying.",
+        "sl_trans": "Ko sem umiral, si mi dal življenje."
+    },
+    "78": {
+        "sl_source": "Ko sem odhajala s tega sveta",
+        "en_source": "And when I was leaving this world",
+        "sl_trans": "In ko sem zapuščal ta svet"
+    },
+    "80": {
+        "sl_source": "–Prestrašil si me!",
+        "en_source": "Jesus, you scared me!",
+        "sl_trans": "Jezus, prestrašil si me!"
+    },
+    "81": {
+        "sl_source": "Moram se zanesti nate, da ga pripraviš.",
+        "en_source": "I need to rely on you to get him up and going.",
+        "sl_trans": "Pri njegovi postavitvi in delovanju se moram zanesti na vas."
+    },
+    "82": {
+        "sl_source": "On pa poležava kot truplo.",
+        "en_source": "He's lying around like a corpse.",
+        "sl_trans": "Leži naokoli kot truplo."
+    },
+    "83": {
+        "sl_source": "–Saj sem ga.",
+        "en_source": "No, I did.",
+        "sl_trans": "Ne, to sem storil."
+    },
+    "84": {
+        "sl_source": "Ne, želim, da ga pripraviš za v šolo.",
+        "en_source": "No, I need you to get him ready for school.",
+        "sl_trans": "Ne, moraš ga pripraviti za šolo."
+    },
+    "85": {
+        "sl_source": "Moram se naučiti besedilo.",
+        "en_source": "Dad, I have to learn my lines!",
+        "sl_trans": "Oče, naučiti se moram besedila!"
+    },
+    "86": {
+        "sl_source": "Kdaj pa se naj?",
+        "en_source": "When am I gonna do that?",
+        "sl_trans": "Kdaj bom to storil?"
+    },
+    "87": {
+        "sl_source": "Rabim tvojo pomoč.",
+        "en_source": "I need your help here.",
+        "sl_trans": "Potrebujem vašo pomoč."
+    },
+    "88": {
+        "sl_source": "Mudi se mi.",
+        "en_source": "I'm drowning.",
+        "sl_trans": "Utapljam se."
+    },
+    "89": {
+        "sl_source": "On zamuja.",
+        "en_source": "He's running late.",
+        "sl_trans": "Zamuja."
+    },
+    "90": {
+        "sl_source": "To bi lahko počela kadarkoli.",
+        "en_source": "You could have done this anytime.",
+        "sl_trans": "To bi lahko storili kadar koli."
+    },
+    "91": {
+        "sl_source": "Sebična si.",
+        "en_source": "You're being selfish.",
+        "sl_trans": "Ste sebični."
+    },
+    "92": {
+        "sl_source": "Je, res sem sebična, ker skrbim za svojo prihodnost.",
+        "en_source": "Yeah, I'm being really selfish for worrying about my future?",
+        "sl_trans": "Ja, sem res sebična, ker me skrbi za prihodnost?"
+    },
+    "93": {
+        "sl_source": "Pomagaj mi.",
+        "en_source": "Just help me out.",
+        "sl_trans": "Pomagajte mi."
+    },
+    "95": {
+        "sl_source": "Ravno pravi čas, Hector.",
+        "en_source": "Good timing, Hector.",
+        "sl_trans": "Pravi čas, Hektor."
+    },
+    "96": {
+        "sl_source": "Zdaj boš lahko videl Quinn.",
+        "en_source": "Now, you get to see Quinn.",
+        "sl_trans": "Zdaj si lahko ogledate Quinna."
+    },
+    "97": {
+        "sl_source": "Si morda čakal?",
+        "en_source": "Were you waiting there?",
+        "sl_trans": "Ste čakali tam?"
+    },
+    "99": {
+        "sl_source": "Saj nisem čakal.",
+        "en_source": "I wasn't, like, waiting.",
+        "sl_trans": "Nisem čakala."
+    },
+    "101": {
+        "sl_source": "Saj vem.",
+        "en_source": "I know.",
+        "sl_trans": "Vem."
+    },
+    "102": {
+        "sl_source": "Kaj imaš danes prvo uro?",
+        "en_source": "So, what have you got first?",
+        "sl_trans": "Kaj imate najprej?"
+    },
+    "104": {
+        "sl_source": "Avdicijo imam za gledališko akademijo v New Yorku.",
+        "en_source": "I have an audition for a theater school in New York.",
+        "sl_trans": "Imam avdicijo za gledališko šolo v New Yorku."
+    },
+    "105": {
+        "sl_source": "Kaj res?",
+        "en_source": "Are you serious?",
+        "sl_trans": "Ali resno?"
+    },
+    "106": {
+        "sl_source": "Čudovito.",
+        "en_source": "That's awesome.",
+        "sl_trans": "To je čudovito."
+    },
+    "107": {
+        "sl_source": "New York, to je pa daleč stran.",
+        "en_source": "New York, It's far away.",
+        "sl_trans": "New York, To je daleč."
+    },
+    "109": {
+        "sl_source": "Videti moraš te ptice.",
+        "en_source": "You gotta see these birds.",
+        "sl_trans": "Te ptice si morate ogledati."
+    },
+    "110": {
+        "sl_source": "Cela jata jih je v mestni hiši.",
+        "en_source": "There's a flock of them at city hall.",
+        "sl_trans": "V mestni hiši jih je kar nekaj."
+    },
+    "111": {
+        "sl_source": "Ti so bolj prijazni, ampak jih ne smeš pojesti.",
+        "en_source": "But these ones are nicer, but you can't eat them.",
+        "sl_trans": "Ti so lepši, vendar jih ne morete jesti."
+    },
+    "112": {
+        "sl_source": "Oprostita, otroka, včasih ne ve, kaj govori.",
+        "en_source": "Sorry, kids, Sometimes she's not sure about what she's saying.",
+        "sl_trans": "Oprostite, otroci, včasih ni prepričana o tem, kaj govori."
+    },
+    "114": {
+        "sl_source": "Takšna boš ti, ko se postaraš.",
+        "en_source": "That's what you have to look forward to when you get old.",
+        "sl_trans": "To je tisto, česar se lahko veseliš, ko se postarate."
+    },
+    "115": {
+        "sl_source": "Ja, ti tudi.",
+        "en_source": "Yes, So do you.",
+        "sl_trans": "Da, tako kot vi."
+    },
+    "116": {
+        "sl_source": "–Ja, ampak ti se boš prej postarala.",
+        "en_source": "Yeah, but you'll get old first.",
+        "sl_trans": "Ja, ampak najprej se boš postaral."
+    },
+    "117": {
+        "sl_source": "Ne bom čakala.",
+        "en_source": "Okay, I can't wait for this thing.",
+        "sl_trans": "Okej, komaj čakam na to stvar."
+    },
+    "120": {
+        "sl_source": "–Nasvidenje, Hector.",
+        "en_source": "See you later, Hector.",
+        "sl_trans": "Se vidimo pozneje, Hektor."
+    },
+    "121": {
+        "sl_source": "Nasvidenje!",
+        "en_source": "See you.",
+        "sl_trans": "Se vidimo."
+    },
+    "122": {
+        "sl_source": "Mama, pomagaj mi pri tem.",
+        "en_source": "Mom, help me get through this.",
+        "sl_trans": "Mami, pomagaj mi, da bom to preživela."
+    },
+    "124": {
+        "sl_source": "–Živijo.",
+        "en_source": "- Yeah Hi.",
+        "sl_trans": "- Ja, zdravo."
+    },
+    "125": {
+        "sl_source": "Hvala, ker si prišla.",
+        "en_source": "Thank you for coming in.",
+        "sl_trans": "Hvala, ker ste prišli."
+    },
+    "126": {
+        "sl_source": "–Hvala vam.",
+        "en_source": "Thank you.",
+        "sl_trans": "Zahvaljujemo se vam."
+    },
+    "127": {
+        "sl_source": "Zelo se veselim.",
+        "en_source": "I'm so excited.",
+        "sl_trans": "Zelo sem navdušena."
+    },
+    "128": {
+        "sl_source": "Obožujem vašo šolo.",
+        "en_source": "I'm a huge fan of your school.",
+        "sl_trans": "Sem velik oboževalec vaše šole."
+    },
+    "129": {
+        "sl_source": "Vedno sem sanjala, da bom prišla tja.",
+        "en_source": "You know, it's always been a dream of mine to go there.",
+        "sl_trans": "Veste, vedno sem sanjal, da bi šel tja."
+    },
+    "130": {
+        "sl_source": "Si kaj pripravila za nas?",
+        "en_source": "Have you prepared something for us?",
+        "sl_trans": "Ste nam kaj pripravili?"
+    },
+    "131": {
+        "sl_source": "–Ja, sem.",
+        "en_source": "Yeah, I have.",
+        "sl_trans": "Ja, imam."
+    },
+    "132": {
+        "sl_source": "Ko boš pripravljena.",
+        "en_source": "Whenever you're ready.",
+        "sl_trans": "Ko boste pripravljeni."
+    },
+    "133": {
+        "sl_source": "Tega ne bom nikoli pozabila.",
+        "en_source": "I won't ever forget this.",
+        "sl_trans": "Tega ne bom nikoli pozabil."
+    },
+    "134": {
+        "sl_source": "Šel boš do konca sveta in tam te bom čakala.",
+        "en_source": "You will go to the end of the world and you will find me waiting there.",
+        "sl_trans": "Šel boš na konec sveta in tam me boš našel."
+    },
+    "135": {
+        "sl_source": "Tvoja služabnica.",
+        "en_source": "Your servant.",
+        "sl_trans": "Vaš služabnik."
+    },
+    "137": {
+        "sl_source": "Saj lahko začneš še enkrat.",
+        "en_source": "You can start the scene again.",
+        "sl_trans": "Prizor lahko znova začnete."
+    },
+    "139": {
+        "sl_source": "Saj znam.",
+        "en_source": "I know it.",
+        "sl_trans": "To vem."
+    },
+    "140": {
+        "sl_source": "Želiš odmor in prideš nazaj malo pozneje?",
+        "en_source": "Do you wanna take a break and come back in a little bit?",
+        "sl_trans": "Si želite vzeti odmor in se vrniti čez nekaj časa?"
+    },
+    "142": {
+        "sl_source": "Ne pretvarjam se, da ga sovražim, kot da ga imam rada, ampak ga dobesedno sovražim.",
+        "en_source": "And I don't mean I pretend to hate him, like, really, I love you.",
+        "sl_trans": "In ne mislim, da se pretvarjam, da ga sovražim, saj te imam res rada."
+    },
+    "143": {
+        "sl_source": "Reci dobesedno, če si resnično dobesedna.",
+        "en_source": "Save the word literally for when you're being literal.",
+        "sl_trans": "Besedo dobesedno prihranite za primere, ko ste dobesedni."
+    },
+    "145": {
+        "sl_source": "Prosim, ne uniči mi tega.",
+        "en_source": "God, don't ruin this.",
+        "sl_trans": "Bog, ne uniči tega."
+    },
+    "146": {
+        "sl_source": "Le še nekaj mesecev starševskega vodenja, potem pa se najina trenutna realnost zaključi.",
+        "en_source": "Look, we have a few months of parental guidance left, and then this reality we're currently living in is done.",
+        "sl_trans": "Poglejte, ostane nam še nekaj mesecev starševskega vodenja, potem pa je te resničnosti, v kateri trenutno živimo, konec."
+    },
+    "147": {
+        "sl_source": "To je najlepši del.",
+        "en_source": "That's what's so great about it.",
+        "sl_trans": "To je tisto, kar je pri njej tako čudovito."
+    },
+    "148": {
+        "sl_source": "Izbereš šolo na nasprotni obali.",
+        "en_source": "You pick a college on the opposite coast.",
+        "sl_trans": "Izberete fakulteto na nasprotni obali."
+    },
+    "150": {
+        "sl_source": "Ta se spremeni v mesečni klic, ko potrebuješ denar.",
+        "en_source": "That turns into a monthly phone call when you need money.",
+        "sl_trans": "To se spremeni v mesečni telefonski klic, ko potrebujete denar."
+    },
+    "151": {
+        "sl_source": "Še vedno je tvoj oče, ampak le kot banka, ki jo obiščeš za praznike.",
+        "en_source": "It's like he's not your dad anymore, He's just a bank you visit on Thanksgiving.",
+        "sl_trans": "Kot da ni več tvoj oče, je le banka, ki jo obiščeš ob zahvalnem dnevu."
+    },
+    "153": {
+        "sl_source": "Zamočila sem avdicijo za edino šolo, kamor sem hotela iti.",
+        "en_source": "I botched the audition to the one school I wanted to go to.",
+        "sl_trans": "Na šoli, kamor sem želel iti, sem se na avdicijo neuspešno prijavil."
+    },
+    "154": {
+        "sl_source": "Nimam rezervnega načrta.",
+        "en_source": "I don't have a backup plan.",
+        "sl_trans": "Rezervnega načrta nimam."
+    },
+    "156": {
+        "sl_source": "Res si rojena igralka, Brennerjeva.",
+        "en_source": "Lord, you are so born to be an actress, Brenner.",
+        "sl_trans": "Gospod, ti si rojena za igralko, Brenner."
+    },
+    "158": {
+        "sl_source": "–Resno mislim.",
+        "en_source": "- No, I'm serious.",
+        "sl_trans": "- Ne, mislim resno."
+    },
+    "159": {
+        "sl_source": "Samo na to šolo sem hotela iti.",
+        "en_source": "That school is all that I wanted.",
+        "sl_trans": "Ta šola je vse, kar sem si želel."
+    },
+    "160": {
+        "sl_source": "Oče pa želi, da ostanem tukaj in vzgajam brata.",
+        "en_source": "And my dad wants me here raising my brother.",
+        "sl_trans": "Moj oče želi, da tu vzgajam svojega brata."
+    },
+    "161": {
+        "sl_source": "Tudi tebe ne bo.",
+        "en_source": "You're gonna be gone.",
+        "sl_trans": "Odšli boste."
+    },
+    "163": {
+        "sl_source": "Ja, to mi vsi govorijo.",
+        "en_source": "Yeah, everybody always says that.",
+        "sl_trans": "Ja, to vedno rečejo vsi."
+    },
+    "164": {
+        "sl_source": "Daj, no.",
+        "en_source": "Hey, Come on.",
+        "sl_trans": "Hej, daj no."
+    },
+    "165": {
+        "sl_source": "Lezbični prijateljici.",
+        "en_source": "Lesbifriends.",
+        "sl_trans": "Lesbifriends."
+    },
+    "166": {
+        "sl_source": "O, ne, prav imaš!",
+        "en_source": "Oh, no, you're right!",
+        "sl_trans": "O, ne, imaš prav!"
+    },
+    "167": {
+        "sl_source": "Kje je najbližji cerkveni kamp?",
+        "en_source": "Where's the nearest Jesus camp?",
+        "sl_trans": "Kje je najbližji Jezusov tabor?"
+    },
+    "168": {
+        "sl_source": "Uživajte z malimi fantki.",
+        "en_source": "Have fun with your little boys.",
+        "sl_trans": "Zabavajte se s svojimi malčki."
+    },
+    "169": {
+        "sl_source": "Adijo.",
+        "en_source": "Goodbye.",
+        "sl_trans": "Zbogom."
+    },
+    "170": {
+        "sl_source": "–Nasvidenje, punci.",
+        "en_source": "- See you later, ladies.",
+        "sl_trans": "- Se vidimo pozneje, dame."
+    },
+    "171": {
+        "sl_source": "Greva.",
+        "en_source": "Let's get out of here.",
+        "sl_trans": "Pojdimo od tu."
+    },
+    "172": {
+        "sl_source": "Pridi, lezbijka!",
+        "en_source": "Come on, Lesbo!",
+        "sl_trans": "Daj no, Lesbo!"
+    },
+    "175": {
+        "sl_source": "Pomagajte nama, prosim!",
+        "en_source": "Someone help us, please!",
+        "sl_trans": "Pomagajte nam, prosimo!"
+    },
+    "176": {
+        "sl_source": "Na moj znak.",
+        "en_source": "On my count.",
+        "sl_trans": "Po mojem mnenju."
+    },
+    "177": {
+        "sl_source": "Ena, dva, tri!",
+        "en_source": "One, two, three!",
+        "sl_trans": "En, dva, tri!"
+    },
+    "178": {
+        "sl_source": "Pripeljite voziček.",
+        "en_source": "Get the crash cart here.",
+        "sl_trans": "Voziček za trkanje dobite tukaj."
+    },
+    "179": {
+        "sl_source": "Vstavite novo cevko.",
+        "en_source": "Okay, get a new line in her.",
+        "sl_trans": "Dobro, vnesi novo linijo."
+    },
+    "180": {
+        "sl_source": "Monitor kaže povišan utrip.",
+        "en_source": "Monitor's showing V-Tach.",
+        "sl_trans": "Monitor prikazuje V-Tach."
+    },
+    "181": {
+        "sl_source": "Imamo več zlomov na desni nogi.",
+        "en_source": "Okay, we got multiple compound fractures on the right leg.",
+        "sl_trans": "Na desni nogi imamo več sestavljenih zlomov."
+    },
+    "182": {
+        "sl_source": "Krvni tlak je 163 in pada.",
+        "en_source": "BP is 163, dropping.",
+        "sl_trans": "BP je 163, pada."
+    },
+    "183": {
+        "sl_source": "Utrip pada.",
+        "en_source": "Rate's degrading.",
+        "sl_trans": "Stopnja je ponižujoča."
+    },
+    "184": {
+        "sl_source": "–V redu, eno ampulo epinefrina.",
+        "en_source": "Okay, give me one amp of EPI.",
+        "sl_trans": "Dobro, dajte mi en ojačevalnik EPI."
+    },
+    "185": {
+        "sl_source": "Defibrilator na 360.",
+        "en_source": "Paddles on 360.",
+        "sl_trans": "Vesla na 360."
+    },
+    "186": {
+        "sl_source": "Polnim na 360!",
+        "en_source": "Charge on 360!",
+        "sl_trans": "Polnjenje na 360!"
+    },
+    "187": {
+        "sl_source": "Dajmo!",
+        "en_source": "Do it!",
+        "sl_trans": "Naredite to!"
+    },
+    "188": {
+        "sl_source": "Imamo.",
+        "en_source": "We got.",
+        "sl_trans": "Dobili smo."
+    },
+    "189": {
+        "sl_source": "V redu, imamo jo.",
+        "en_source": "Okay, we got her.",
+        "sl_trans": "Dobro, imamo jo."
+    },
+    "190": {
+        "sl_source": "Nazaj je.",
+        "en_source": "We got her back.",
+        "sl_trans": "Dobili smo jo nazaj."
+    },
+    "191": {
+        "sl_source": "Ohranimo jo stabilno.",
+        "en_source": "Let's keep her stable, folks.",
+        "sl_trans": "Ohranimo jo stabilno, ljudje."
+    },
+    "193": {
+        "sl_source": "Živijo, jaz sem, oče.",
+        "en_source": "Hey, it's dad.",
+        "sl_trans": "Hej, to je oče."
+    },
+    "194": {
+        "sl_source": "Draga, tukaj sem.",
+        "en_source": "Honey, I'm here.",
+        "sl_trans": "Dragi, tukaj sem."
+    },
+    "195": {
+        "sl_source": "Česa se spomniš?",
+        "en_source": "Do you remember anything?",
+        "sl_trans": "Se česa spomnite?"
+    },
+    "196": {
+        "sl_source": "Z Maggie sem bila.",
+        "en_source": "I was with Maggie.",
+        "sl_trans": "Bil sem z Maggie."
+    },
+    "197": {
+        "sl_source": "Nek moški mi je mahal.",
+        "en_source": "And there was this man waving at me.",
+        "sl_trans": "In tam je bil moški, ki mi je mahal."
+    },
+    "198": {
+        "sl_source": "Tudi v gledališču je bil.",
+        "en_source": "He was at the theater, too.",
+        "sl_trans": "Tudi on je bil v gledališču."
+    },
+    "199": {
+        "sl_source": "Potem pa se je vse stemnilo.",
+        "en_source": "And then everything went dark.",
+        "sl_trans": "Nato je vse postalo temno."
+    },
+    "200": {
+        "sl_source": "Takoj bom, draga.",
+        "en_source": "One second, hon.",
+        "sl_trans": "Sekundo, spoštovani."
+    },
+    "201": {
+        "sl_source": "G. Sean, Kako ste?",
+        "en_source": "Mr. Sean, How are you doing?",
+        "sl_trans": "Gospod Sean, kako se počutite?"
+    },
+    "202": {
+        "sl_source": "–Živijo, Harry.",
+        "en_source": "Hey, Harry.",
+        "sl_trans": "Hej, Harry."
+    },
+    "203": {
+        "sl_source": "Vsem nam je bilo hudo, ko smo slišali, kaj se je zgodilo vaši hčerki.",
+        "en_source": "You know, we're really sorry to hear about what happened to your daughter.",
+        "sl_trans": "Veste, res nam je žal, da smo slišali, kaj se je zgodilo vaši hčerki."
+    },
+    "205": {
+        "sl_source": "Pomembno je, da je tukaj.",
+        "en_source": "She's here, That's what counts.",
+        "sl_trans": "Tukaj je, to je tisto, kar šteje."
+    },
+    "206": {
+        "sl_source": "Mož, ki ne more dihati.",
+        "en_source": "The man who can't breathe.",
+        "sl_trans": "Človek, ki ne more dihati."
+    },
+    "207": {
+        "sl_source": "Mož, ki živi v jaških.",
+        "en_source": "The man who lives in the vents.",
+        "sl_trans": "Človek, ki živi v zračnikih."
+    },
+    "208": {
+        "sl_source": "Včeraj sem slišala, da je rekel tvoje ime.",
+        "en_source": "I heard him saying your name last night.",
+        "sl_trans": "Sinoči sem slišal, da je izgovoril tvoje ime."
+    },
+    "209": {
+        "sl_source": "Slišala sem ga v tvoji sobi, ko te ni bilo.",
+        "en_source": "I heard him in your room while you were gone.",
+        "sl_trans": "Slišal sem ga v tvoji sobi, ko te ni bilo."
+    },
+    "210": {
+        "sl_source": "Tudi zdaj je tam, stoji v tvoji sobi.",
+        "en_source": "He's up there right now, standing in your room.",
+        "sl_trans": "Zdaj je tam zgoraj, stoji v tvoji sobi."
+    },
+    "211": {
+        "sl_source": "Videla ga boš.",
+        "en_source": "You will see him.",
+        "sl_trans": "Videli ga boste."
+    },
+    "214": {
+        "sl_source": "Dobrodošla doma, borka.",
+        "en_source": "Welcome home, bad ass.",
+        "sl_trans": "Dobrodošel doma, hudič."
+    },
+    "215": {
+        "sl_source": "Ojoj, Quinn.",
+        "en_source": "My gosh, Quinn.",
+        "sl_trans": "Moj bog, Quinn."
+    },
+    "216": {
+        "sl_source": "–Dobili ste me.",
+        "en_source": "Yeah, I'm all busted.",
+        "sl_trans": "Ja, sem v škripcih."
+    },
+    "217": {
+        "sl_source": "Voziček ima le, dokler se ne zacelijo kosti.",
+        "en_source": "Wheelchair's just until the bones in her legs heal.",
+        "sl_trans": "Invalidski voziček je le, dokler se ji ne zacelijo kosti v nogah."
+    },
+    "218": {
+        "sl_source": "Ja, hvala bogu.",
+        "en_source": "Yeah.",
+        "sl_trans": "Ja."
+    },
+    "219": {
+        "sl_source": "Vesel sem, da se boš pozdravila.",
+        "en_source": "Listen, I'm just happy that you're gonna get better.",
+        "sl_trans": "Poslušaj, vesel sem, da ti bo bolje."
+    },
+    "220": {
+        "sl_source": "Nekateri ljudje so norci.",
+        "en_source": "Some people are crazy.",
+        "sl_trans": "Nekateri ljudje so nori."
+    },
+    "221": {
+        "sl_source": "Kako vozijo po soseski?",
+        "en_source": "The way they drive around this neighborhood, you know?",
+        "sl_trans": "Veste, kako se vozijo po tej soseski?"
+    },
+    "222": {
+        "sl_source": "Žal mi je za to, kar se je zgodilo.",
+        "en_source": "I'm so sorry this happened to you.",
+        "sl_trans": "Žal mi je, da se vam je to zgodilo."
+    },
+    "223": {
+        "sl_source": "–Ja, precej nerodna reč.",
+        "en_source": "Yeah, it's pretty embarrassing.",
+        "sl_trans": "Ja, to je precej sramotno."
+    },
+    "224": {
+        "sl_source": "Poslal sem ti rože.",
+        "en_source": "I sent some flowers.",
+        "sl_trans": "Poslala sem nekaj cvetja."
+    },
+    "225": {
+        "sl_source": "–Saj sva jih dobila.",
+        "en_source": "We got 'em.",
+        "sl_trans": "Imamo jih."
+    },
+    "226": {
+        "sl_source": "Lahko kaj napišem, ali je to preveč klišejsko?",
+        "en_source": "Can I tag this thing or Is that a cliché?",
+        "sl_trans": "Ali lahko to stvar označim ali je to kliše?"
+    },
+    "227": {
+        "sl_source": "Ne, kar izvoli.",
+        "en_source": "No, Knock yourself out.",
+        "sl_trans": "Ne, potrudi se."
+    },
+    "228": {
+        "sl_source": "Tega si pa očitno dolgo hranil.",
+        "en_source": "Wow, you have been saving that one.",
+        "sl_trans": "Wow, to si shranil."
+    },
+    "229": {
+        "sl_source": "Gotovo si le čakal, da Quinn zbije avto.",
+        "en_source": "You just had to wait for Quinn to get hit by a car.",
+        "sl_trans": "Počakati je bilo treba, da je Quinna povozil avto."
+    },
+    "230": {
+        "sl_source": "Mislim, da ima dovolj razkazovanja za zdaj.",
+        "en_source": "I think she's done being shown off now.",
+        "sl_trans": "Mislim, da se je nehala razkazovati."
+    },
+    "231": {
+        "sl_source": "Hoteli smo te le videti, Quinn.",
+        "en_source": "Listen, we just wanted to see you, Quinn.",
+        "sl_trans": "Poslušaj, želeli smo te le videti, Quinn."
+    },
+    "232": {
+        "sl_source": "Povej, če karkoli potrebuješ.",
+        "en_source": "Listen, anything you need.",
+        "sl_trans": "Poslušajte, karkoli potrebujete."
+    },
+    "234": {
+        "sl_source": "–Resno mislim.",
+        "en_source": "Well, I mean it.",
+        "sl_trans": "Mislim resno."
+    },
+    "235": {
+        "sl_source": "Adijo.",
+        "en_source": "See you later.",
+        "sl_trans": "Se vidimo pozneje."
+    },
+    "236": {
+        "sl_source": "Zopet doma.",
+        "en_source": "Home again home.",
+        "sl_trans": "Spet doma."
+    },
+    "237": {
+        "sl_source": "V redu, pripravljena?",
+        "en_source": "All right, ready?",
+        "sl_trans": "V redu, pripravljeni?"
+    },
+    "238": {
+        "sl_source": "Ena, dva, tri.",
+        "en_source": "One, two, three.",
+        "sl_trans": "1, 2, 3."
+    },
+    "239": {
+        "sl_source": "Odlične sosede imamo.",
+        "en_source": "Great neighbors we have.",
+        "sl_trans": "Imamo odlične sosede."
+    },
+    "240": {
+        "sl_source": "Nora starka na eni strani in fant, ki je očitno zaljubljen vate, na drugi.",
+        "en_source": "Crazy cat lady on one side and a boy who's clearly in love with you on the other.",
+        "sl_trans": "Na eni strani je nora mačja dama, na drugi pa fant, ki je očitno zaljubljen vate."
+    },
+    "242": {
+        "sl_source": "Niso vsi, ki me pogledajo, zaljubljeni vame.",
+        "en_source": "You know, everyone that looks at me isn't in love with me, dad.",
+        "sl_trans": "Veš, vsi, ki me gledajo, niso zaljubljeni vame, oče."
+    },
+    "243": {
+        "sl_source": "Še posebej zdaj, ko sem invalidka.",
+        "en_source": "Especially since I'm a cripple now.",
+        "sl_trans": "Še posebej, ker sem zdaj invalid."
+    },
+    "245": {
+        "sl_source": "Sploh zdaj, ko sem ti prinesel to super košaro daril.",
+        "en_source": "Not since I got you such an awesome gift basket.",
+        "sl_trans": "Odkar sem ti kupila tako super darilno košarico, ne."
+    },
+    "246": {
+        "sl_source": "Vse, kar imaš rada.",
+        "en_source": "Everything you like.",
+        "sl_trans": "Vse, kar vam je všeč."
+    },
+    "248": {
+        "sl_source": "Zvonec.",
+        "en_source": "Bell.",
+        "sl_trans": "Zvon."
+    },
+    "249": {
+        "sl_source": "Če boš hotela, da ti strežem.",
+        "en_source": "In case you want me to wait on you.",
+        "sl_trans": "Če želite, da vas počakam."
+    },
+    "251": {
+        "sl_source": "Francoska čebulna omaka.",
+        "en_source": "French onion dip?",
+        "sl_trans": "Francosko čebulno omako?"
+    },
+    "253": {
+        "sl_source": "Kaj je?",
+        "en_source": "What?",
+        "sl_trans": "Kaj?"
+    },
+    "254": {
+        "sl_source": "Vegetarijanka sem.",
+        "en_source": "I'm vegetarian.",
+        "sl_trans": "Sem vegetarijanec."
+    },
+    "255": {
+        "sl_source": "Resno?",
+        "en_source": "Really?",
+        "sl_trans": "Res?"
+    },
+    "257": {
+        "sl_source": "Od kdaj pa?",
+        "en_source": "When did that happen?",
+        "sl_trans": "Kdaj se je to zgodilo?"
+    },
+    "258": {
+        "sl_source": "–Saj je vseeno.",
+        "en_source": "It doesn't matter.",
+        "sl_trans": "Ni pomembno."
+    },
+    "259": {
+        "sl_source": "Hvala.",
+        "en_source": "Thank you.",
+        "sl_trans": "Zahvaljujemo se vam."
+    },
+    "262": {
+        "sl_source": "Sem dobila kakšno pismo iz šole?",
+        "en_source": "Did any letters come from any schools?",
+        "sl_trans": "Ali je katera od šol poslala kakšno pismo?"
+    },
+    "263": {
+        "sl_source": "Nočem, da se zdaj obremenjuješ s tem.",
+        "en_source": "No, I don't want you to worry about that right now.",
+        "sl_trans": "Ne, ne želim, da bi vas to zdaj skrbelo."
+    },
+    "264": {
+        "sl_source": "Zdaj poskrbi le za to, da boš ozdravela.",
+        "en_source": "The only thing I want you to think about right now is getting better.",
+        "sl_trans": "Edina stvar, o kateri želim, da zdaj razmišljate, je, da vam bo bolje."
+    },
+    "265": {
+        "sl_source": "Razumeš?",
+        "en_source": "Understand?",
+        "sl_trans": "Razumete?"
+    },
+    "266": {
+        "sl_source": "Na to glej kot odličen izgovor za tvojo najljubšo stvar na svetu.",
+        "en_source": "Think of it as a gift-wrapped excuse to do your favorite thing in the world.",
+        "sl_trans": "Razmišljajte o tem kot o izgovoru v darilnem paketu, da lahko počnete svojo najljubšo stvar na svetu."
+    },
+    "269": {
+        "sl_source": "Me potrebuješ?",
+        "en_source": "You need me?",
+        "sl_trans": "Potrebuješ me?"
+    },
+    "270": {
+        "sl_source": "Slišal sem zvonec.",
+        "en_source": "I thought I heard the Bell.",
+        "sl_trans": "Zdelo se mi je, da sem slišal zvonec."
+    },
+    "275": {
+        "sl_source": "Tega si nisem izmislil, Mel.",
+        "en_source": "I'm not making this up, Mel.",
+        "sl_trans": "Tega si ne izmišljujem, Mel."
+    },
+    "276": {
+        "sl_source": "Počil mi je strop.",
+        "en_source": "It cracked my ceiling.",
+        "sl_trans": "Razbilo mi je strop."
+    },
+    "277": {
+        "sl_source": "Saj ne pravim, da si si.",
+        "en_source": "I'm not saying you are.",
+        "sl_trans": "Ne trdim, da ste."
+    },
+    "278": {
+        "sl_source": "Samo pokazal ti bom, da zgoraj trenutno nihče ne živi.",
+        "en_source": "I'm just showing you that there's nobody living above you right now.",
+        "sl_trans": "Samo pokažem vam, da nad vami zdaj ne živi nihče drug."
+    },
+    "279": {
+        "sl_source": "Vidiš?",
+        "en_source": "See?",
+        "sl_trans": "Vidite?"
+    },
+    "281": {
+        "sl_source": "Vseeno sem nekaj slišal.",
+        "en_source": "Well, I heard it.",
+        "sl_trans": "Slišal sem ga."
+    },
+    "282": {
+        "sl_source": "Iz te sobe je prišlo.",
+        "en_source": "And it came from that room.",
+        "sl_trans": "In prišel je iz te sobe."
+    },
+    "284": {
+        "sl_source": "Kaj praviš pa zdaj?",
+        "en_source": "What do you say now?",
+        "sl_trans": "Kaj boste rekli zdaj?"
+    },
+    "285": {
+        "sl_source": "Ni nikogar tu?",
+        "en_source": "No one up here?",
+        "sl_trans": "Tukaj ni nikogar?"
+    },
+    "286": {
+        "sl_source": "–Ne vem, kaj naj ti rečem.",
+        "en_source": "I don't know what to tell you.",
+        "sl_trans": "Ne vem, kaj naj vam povem."
+    },
+    "287": {
+        "sl_source": "Povej, kdo bo plačal za razpoko v stropu.",
+        "en_source": "Tell me who's gonna pay for the crack in my ceiling.",
+        "sl_trans": "Povej mi, kdo bo plačal za razpoko na mojem stropu."
+    },
+    "288": {
+        "sl_source": "Zakaj ne morem.",
+        "en_source": "Why can't I ever.",
+        "sl_trans": "Zakaj ne morem nikoli."
+    },
+    "289": {
+        "sl_source": "Quinn, povej, prosim, kje je ponev.",
+        "en_source": "Quinn, where's the frying pan, please?",
+        "sl_trans": "Quinn, kje je ponev, prosim?"
+    },
+    "292": {
+        "sl_source": "Ne morem zdaj, nimam časa.",
+        "en_source": "I can't take this right now, I'm too busy.",
+        "sl_trans": "Zdaj tega ne morem sprejeti, preveč sem zaposlen."
+    },
+    "294": {
+        "sl_source": "To jutro ne bo jajc.",
+        "en_source": "No eggs this morning.",
+        "sl_trans": "Danes zjutraj ni bilo jajc."
+    },
+    "295": {
+        "sl_source": "Za zajtrk si vzemi nekaj iz hladilnika, prav?",
+        "en_source": "Just find what you can in the fridge for breakfast, okay?",
+        "sl_trans": "Za zajtrk poišči v hladilniku, kar se da, okej?"
+    },
+    "298": {
+        "sl_source": "Pojej zajtrk.",
+        "en_source": "Eat your breakfast.",
+        "sl_trans": "Pojejte zajtrk."
+    },
+    "300": {
+        "sl_source": "Moraš.",
+        "en_source": "You have to.",
+        "sl_trans": "Morate."
+    },
+    "301": {
+        "sl_source": "–Ničesar ne okušam.",
+        "en_source": "I can't taste it.",
+        "sl_trans": "Ne morem ga okusiti."
+    },
+    "302": {
+        "sl_source": "Ničesar več ne okušam.",
+        "en_source": "I can't taste anything anymore.",
+        "sl_trans": "Ničesar več ne morem okusiti."
+    },
+    "304": {
+        "sl_source": "–Ja!",
+        "en_source": "Yes!",
+        "sl_trans": "Da!"
+    },
+    "305": {
+        "sl_source": "Šla sem k jasnovidki.",
+        "en_source": "I went to see a psychic.",
+        "sl_trans": "Obiskala sem vedeževalko."
+    },
+    "306": {
+        "sl_source": "Hotela sem govoriti z mamo.",
+        "en_source": "I wanted to talk to mom.",
+        "sl_trans": "Želela sem se pogovoriti z mamo."
+    },
+    "307": {
+        "sl_source": "Kaj si?",
+        "en_source": "You what?",
+        "sl_trans": "Kaj?"
+    },
+    "308": {
+        "sl_source": "Šla sem k jasnovidki z imenom Elise.",
+        "en_source": "I went and saw a psychic woman named Elise.",
+        "sl_trans": "Šla sem k vedeževalki Elise."
+    },
+    "311": {
+        "sl_source": "–Kakšen mesec nazaj.",
+        "en_source": "Like a month or so back.",
+        "sl_trans": "Kakšen mesec ali več nazaj."
+    },
+    "312": {
+        "sl_source": "Čudne stvari so se začele dogajati.",
+        "en_source": "Strange things have been happening.",
+        "sl_trans": "Dogajajo se čudne stvari."
+    },
+    "313": {
+        "sl_source": "Kot tisto trkanje včeraj.",
+        "en_source": "Like that knocking I heard last night.",
+        "sl_trans": "Kot tisto trkanje, ki sem ga slišal sinoči."
+    },
+    "314": {
+        "sl_source": "Mislim, da hoče mama govoriti z mano.",
+        "en_source": "I think that was mom trying to reach me.",
+        "sl_trans": "Mislim, da je mama poskušala priti do mene."
+    },
+    "316": {
+        "sl_source": "Nočem, da dobiš kakšne čudne zamisli.",
+        "en_source": "I don't want you to get any funny ideas.",
+        "sl_trans": "Nočem, da bi se vam porodila kakšna smešna ideja."
+    },
+    "317": {
+        "sl_source": "Veš, ti norci so.",
+        "en_source": "You know, these nutcases are.",
+        "sl_trans": "Veste, ti norci so."
+    },
+    "318": {
+        "sl_source": "Plačani so, da ti dajo upanje.",
+        "en_source": "They're paid to give you hope.",
+        "sl_trans": "Plačani so za to, da vam dajejo upanje."
+    },
+    "319": {
+        "sl_source": "To počnejo.",
+        "en_source": "That's what they do.",
+        "sl_trans": "To tudi počnejo."
+    },
+    "320": {
+        "sl_source": "Izmišljajo si stvari.",
+        "en_source": "They make stuff up.",
+        "sl_trans": "Izmišljujejo si stvari."
+    },
+    "322": {
+        "sl_source": "Kaj če mi hoče kaj povedati?",
+        "en_source": "What if she's trying to tell me something?",
+        "sl_trans": "Kaj če mi želi nekaj povedati?"
+    },
+    "323": {
+        "sl_source": "Zakaj nočeš nikoli govoriti o njej?",
+        "en_source": "Why don't you ever wanna talk about her or acknowledge her?",
+        "sl_trans": "Zakaj o njej nikoli ne želite govoriti ali je priznati?"
+    },
+    "324": {
+        "sl_source": "Saj govorim o njej.",
+        "en_source": "I do talk about her.",
+        "sl_trans": "Govorim o njej."
+    },
+    "325": {
+        "sl_source": "–Ne!",
+        "en_source": "No, you don't!",
+        "sl_trans": "Ne, ne potrebuješ!"
+    },
+    "326": {
+        "sl_source": "Samo prepiraš se z mano!",
+        "en_source": "You just fight with me!",
+        "sl_trans": "Preprosto se bojuješ z mano!"
+    },
+    "327": {
+        "sl_source": "Skrivaš se v kaosu in se delaš, da ni nikoli obstajala.",
+        "en_source": "You keep all this chaos so you can pretend that she never existed.",
+        "sl_trans": "Ves ta kaos ohranjate, da se lahko pretvarjate, da je nikoli ni bilo."
+    },
+    "329": {
+        "sl_source": "Vsak dan jo vidim, ko pogledam tebe.",
+        "en_source": "I see her every single day when I look at you.",
+        "sl_trans": "Vidim jo vsak dan, ko te pogledam."
+    },
+    "330": {
+        "sl_source": "Prav.",
+        "en_source": "Fine.",
+        "sl_trans": "V redu."
+    },
+    "331": {
+        "sl_source": "Pomagala ji bom, ampak ti ostaneš tukaj.",
+        "en_source": "I'll help her, but you're staying here.",
+        "sl_trans": "Pomagal ji bom, ti pa boš ostal tukaj."
+    },
+    "332": {
+        "sl_source": "Kličem Lilith Brenner.",
+        "en_source": "I'm reaching out to Lilith Brenner.",
+        "sl_trans": "Obračam se na Lilith Brenner."
+    },
+    "333": {
+        "sl_source": "Če me slišiš, prosim odgovori.",
+        "en_source": "If you can hear me, please answer me.",
+        "sl_trans": "Če me slišite, mi odgovorite."
+    },
+    "334": {
+        "sl_source": "Tvoja hči je morda v nevarnosti.",
+        "en_source": "Your daughter may be in danger.",
+        "sl_trans": "Vaša hči je morda v nevarnosti."
+    },
+    "335": {
+        "sl_source": "Potrebuje tvojo pomoč.",
+        "en_source": "She needs your help.",
+        "sl_trans": "Potrebuje vašo pomoč."
+    },
+    "337": {
+        "sl_source": "Moram govoriti s tabo.",
+        "en_source": "I need to speak with you.",
+        "sl_trans": "Pogovoriti se moram z vami."
+    },
+    "339": {
+        "sl_source": "Kaj hočeš od nje?",
+        "en_source": "What do you want from her?",
+        "sl_trans": "Kaj želite od nje?"
+    },
+    "340": {
+        "sl_source": "Vem, da nisi njena mati.",
+        "en_source": "I know you're not her mother.",
+        "sl_trans": "Vem, da niste njena mati."
+    },
+    "341": {
+        "sl_source": "Ona misli, da si, ampak nisi.",
+        "en_source": "She thinks you are, but you aren't.",
+        "sl_trans": "Ona misli, da ste, vendar niste."
+    },
+    "342": {
+        "sl_source": "Ne bojim se te.",
+        "en_source": "And I'm not afraid of you.",
+        "sl_trans": "In ne bojim se vas."
+    },
+    "343": {
+        "sl_source": "Vem, da si tukaj.",
+        "en_source": "I know you're there.",
+        "sl_trans": "Vem, da ste tam."
+    },
+    "344": {
+        "sl_source": "S takšnimi, kot si ti, sem se že borila, demon.",
+        "en_source": "I've fought many like you in my time, demon.",
+        "sl_trans": "V svojem času sem se boril z mnogimi, kot si ti, demon."
+    },
+    "345": {
+        "sl_source": "Pokaži se.",
+        "en_source": "Show yourself.",
+        "sl_trans": "Pokažite se."
+    },
+    "347": {
+        "sl_source": "Ne morem več početi tega.",
+        "en_source": "I can't do this anymore.",
+        "sl_trans": "Tega ne morem več početi."
+    },
+    "348": {
+        "sl_source": "Kate Wittier je še vedno zoprna.",
+        "en_source": "Kate wittier is still a bitch.",
+        "sl_trans": "Kate wittier je še vedno psica."
+    },
+    "349": {
+        "sl_source": "G. Paul je še vedno vroč.",
+        "en_source": "Mr. Paul is still hot.",
+        "sl_trans": "Gospod Paul je še vedno vroč."
+    },
+    "350": {
+        "sl_source": "Hector še vedno sprašuje po tebi na zelo neprimeren način.",
+        "en_source": "Hector is still asking about you in a really unsubtle way.",
+        "sl_trans": "Hektor še vedno sprašuje o tebi na zelo neprizanesljiv način."
+    },
+    "351": {
+        "sl_source": "To mora nehati početi.",
+        "en_source": "He just needs to stop.",
+        "sl_trans": "Preprosto mora prenehati."
+    },
+    "352": {
+        "sl_source": "Vsi v šoli se pretvarjajo, da jim je mar za maturantski ples in da bodo oblekli ikonične obleke.",
+        "en_source": "And everyone at school is pretending that they care about prom and that they're going to wear ironic costumes.",
+        "sl_trans": "In vsi v šoli se pretvarjajo, da jim je mar za maturantski ples in da bodo nosili ironične kostume."
+    },
+    "353": {
+        "sl_source": "To se sliši zabavno.",
+        "en_source": "That sounds so fun.",
+        "sl_trans": "To se sliši zelo zabavno."
+    },
+    "354": {
+        "sl_source": "–Pa ni.",
+        "en_source": "- No, it's not.",
+        "sl_trans": "- Ne, ni."
+    },
+    "355": {
+        "sl_source": "To je nekaj najhujšega, verjemi.",
+        "en_source": "It's the worse, Believe me.",
+        "sl_trans": "To je najslabše, Verjemite mi."
+    },
+    "356": {
+        "sl_source": "Ko bi vsaj še mene kdo zbil s tovornjakom.",
+        "en_source": "I wish someone would run over my legs with a truck.",
+        "sl_trans": "Želim si, da bi mi nekdo s tovornjakom prevozil noge."
+    },
+    "357": {
+        "sl_source": "Kako je pa s tvojo prijavo na kolidž?",
+        "en_source": "So, how's your college application going?",
+        "sl_trans": "Kako poteka prijava na fakulteto?"
+    },
+    "358": {
+        "sl_source": "Ne, govoriva zdaj o tebi.",
+        "en_source": "No, we're gonna talk about you.",
+        "sl_trans": "Ne, govorili bomo o tebi."
+    },
+    "360": {
+        "sl_source": "Vzel bo ves svoj dopust.",
+        "en_source": "He's taking all this time off work.",
+        "sl_trans": "Ves ta čas si je vzel dopust."
+    },
+    "361": {
+        "sl_source": "Ravno zdaj o tem govori s svojim šefom.",
+        "en_source": "He's out talking to his boss about it right now.",
+        "sl_trans": "Zdaj se o tem pogovarja s svojim šefom."
+    },
+    "362": {
+        "sl_source": "Kot da gre za pomembno stvar.",
+        "en_source": "It's like this whole big situation.",
+        "sl_trans": "To je kot celotna velika situacija."
+    },
+    "363": {
+        "sl_source": "–Beda.",
+        "en_source": "That sucks.",
+        "sl_trans": "To je hudo."
+    },
+    "364": {
+        "sl_source": "Kaj pa storiš, če moraš na stranišče?",
+        "en_source": "Well, I don't know, what do you do when you need to go to the bathroom?",
+        "sl_trans": "No, ne vem, kaj naredite, ko morate na stranišče?"
+    },
+    "366": {
+        "sl_source": "Saj se šališ!",
+        "en_source": "You're kidding me!",
+        "sl_trans": "Se norčujete iz mene!"
+    },
+    "367": {
+        "sl_source": "Hej, je to Alex?",
+        "en_source": "Hey, is that Alex?",
+        "sl_trans": "Hej, ali je to Alex?"
+    },
+    "369": {
+        "sl_source": "Ob tebi stoji.",
+        "en_source": "Standing right next to you.",
+        "sl_trans": "stoji tik ob tebi."
+    },
+    "370": {
+        "sl_source": "O čem pa govoriš?",
+        "en_source": "What are you talking about?",
+        "sl_trans": "O čem govorite?"
+    },
+    "372": {
+        "sl_source": "Čisto blizu.",
+        "en_source": "He's right here.",
+        "sl_trans": "Tukaj je."
+    },
+    "377": {
+        "sl_source": "Si poškodovana?",
+        "en_source": "Are you hurt?",
+        "sl_trans": "Ste poškodovani?"
+    },
+    "378": {
+        "sl_source": "Si v redu?",
+        "en_source": "Are you okay?",
+        "sl_trans": "Ste v redu?"
+    },
+    "379": {
+        "sl_source": "Te kaj boli?",
+        "en_source": "Are you hurt?",
+        "sl_trans": "Ste poškodovani?"
+    },
+    "381": {
+        "sl_source": "Nekdo je tukaj.",
+        "en_source": "Someone's in here.",
+        "sl_trans": "Nekdo je tu."
+    },
+    "382": {
+        "sl_source": "–Nekdo je tukaj?",
+        "en_source": "There's someone in here?",
+        "sl_trans": "Tu je nekdo?"
+    },
+    "383": {
+        "sl_source": "Zdaj sem jaz tukaj.",
+        "en_source": "I'm here now.",
+        "sl_trans": "Zdaj sem tukaj."
+    },
+    "386": {
+        "sl_source": "Tako ne bo premaknila glave in si še bolj poškodovala vratu.",
+        "en_source": "This will prevent her from moving in a way that could injure her neck further.",
+        "sl_trans": "S tem ji boste preprečili, da bi se premikala tako, da bi si še bolj poškodovala vrat."
+    },
+    "387": {
+        "sl_source": "Počasi.",
+        "en_source": "Easy.",
+        "sl_trans": "Enostavno."
+    },
+    "388": {
+        "sl_source": "Samo pri miru bodi.",
+        "en_source": "Just hold still.",
+        "sl_trans": "Samo mirno stojte."
+    },
+    "389": {
+        "sl_source": "Hvala.",
+        "en_source": "Thank you.",
+        "sl_trans": "Zahvaljujemo se vam."
+    },
+    "390": {
+        "sl_source": "Quinn, kaj je bilo?",
+        "en_source": "Quinn, what happened?",
+        "sl_trans": "Quinn, kaj se je zgodilo?"
+    },
+    "391": {
+        "sl_source": "Nekdo me je vrgel s postelje.",
+        "en_source": "I was thrown out of bed.",
+        "sl_trans": "Vrgli so me iz postelje."
+    },
+    "392": {
+        "sl_source": "V tvoji sobi ni bilo nikogar.",
+        "en_source": "But there was no one in your room.",
+        "sl_trans": "Toda v vaši sobi ni bilo nikogar."
+    },
+    "393": {
+        "sl_source": "Saj bi ga videl.",
+        "en_source": "I would've seen them.",
+        "sl_trans": "Videl bi jih."
+    },
+    "394": {
+        "sl_source": "To ni bil človek.",
+        "en_source": "It wasn't a person.",
+        "sl_trans": "To ni bila oseba."
+    },
+    "395": {
+        "sl_source": "Bil je.",
+        "en_source": "It was.",
+        "sl_trans": "Tako je bilo."
+    },
+    "396": {
+        "sl_source": "Prej sem mislila, da hoče mama govoriti z mano.",
+        "en_source": "Before I thought that it was mom trying to contact me.",
+        "sl_trans": "Pred tem sem mislila, da je to mama, ki poskuša vzpostaviti stik z mano."
+    },
+    "397": {
+        "sl_source": "Ampak to ni ona.",
+        "en_source": "But it's not.",
+        "sl_trans": "Vendar ni tako."
+    },
+    "398": {
+        "sl_source": "Nekaj drugega je.",
+        "en_source": "It's something else.",
+        "sl_trans": "To je nekaj drugega."
+    },
+    "399": {
+        "sl_source": "Si prepričana, da ni bila to le mora?",
+        "en_source": "Are you sure it wasn't just a bad dream?",
+        "sl_trans": "Ste prepričani, da to niso bile le slabe sanje?"
+    },
+    "401": {
+        "sl_source": "Videla sem ga.",
+        "en_source": "I saw him.",
+        "sl_trans": "Videl sem ga."
+    },
+    "403": {
+        "sl_source": "Imel je masko za dihanje.",
+        "en_source": "He had on a breathing mask.",
+        "sl_trans": "Na glavi je imel masko za dihanje."
+    },
+    "404": {
+        "sl_source": "Saj ti verjamem.",
+        "en_source": "I believe you.",
+        "sl_trans": "Verjamem vam."
+    },
+    "405": {
+        "sl_source": "Res ti.",
+        "en_source": "I do.",
+        "sl_trans": "Jaz to počnem."
+    },
+    "406": {
+        "sl_source": "Zdaj bo vse v redu.",
+        "en_source": "You're gonna be okay now.",
+        "sl_trans": "Zdaj boš v redu."
+    },
+    "407": {
+        "sl_source": "Tukaj se malo odpočij.",
+        "en_source": "Get some rest out here.",
+        "sl_trans": "Tukaj se spočijte."
+    },
+    "409": {
+        "sl_source": "Pridi.",
+        "en_source": "Come on.",
+        "sl_trans": "Dajmo."
+    },
+    "413": {
+        "sl_source": "Ni se več zbudila.",
+        "en_source": "She just wouldn't wake up.",
+        "sl_trans": "Preprosto se ni hotela zbuditi."
+    },
+    "414": {
+        "sl_source": "Harry, moje sožalje.",
+        "en_source": "Harry, I'm sorry.",
+        "sl_trans": "Harry, žal mi je."
+    },
+    "415": {
+        "sl_source": "Ljudje so jo klicali gospa z mačkami in nora gospa, vendar je bila veliko več.",
+        "en_source": "People called her the cat lady, crazy lady, but she wasn't any of that.",
+        "sl_trans": "Ljudje so jo klicali mačja dama, nora dama, a ona ni bila nič od tega."
+    },
+    "417": {
+        "sl_source": "Nekaj je pomenila.",
+        "en_source": "She meant something.",
+        "sl_trans": "Nekaj je mislila."
+    },
+    "420": {
+        "sl_source": "Preden je zbolela, je imela polno življenje.",
+        "en_source": "She had a whole life before she got sick.",
+        "sl_trans": "Preden je zbolela, je imela celo življenje."
+    },
+    "421": {
+        "sl_source": "Lepa je bila.",
+        "en_source": "She was beautiful.",
+        "sl_trans": "Bila je lepa."
+    },
+    "422": {
+        "sl_source": "Tako zelo lepa.",
+        "en_source": "So, so beautiful.",
+        "sl_trans": "Tako, tako lepo."
+    },
+    "423": {
+        "sl_source": "Najlepše dekle v celem kraju.",
+        "en_source": "The most beautiful girl in the whole town.",
+        "sl_trans": "Najlepše dekle v vsem mestu."
+    },
+    "424": {
+        "sl_source": "Vedel sem, da nima več veliko časa, in trudil sem se, da ji povem, kaj mi pomeni.",
+        "en_source": "I knew she didn't have long, and I tried my best to tell her what she meant to me.",
+        "sl_trans": "Vedel sem, da ji ni ostalo veliko časa, zato sem ji po najboljših močeh poskušal povedati, kaj mi je pomenila."
+    },
+    "425": {
+        "sl_source": "Najbolj žalostno pa je, da mislim, da me ni razumela.",
+        "en_source": "The sad part is I don't think she understood a word I was trying to say.",
+        "sl_trans": "Žalostno je, da mislim, da ni razumela niti besede, ki sem jo želel povedati."
+    },
+    "426": {
+        "sl_source": "Vedela je, kaj si hotel povedati.",
+        "en_source": "She knew what you said.",
+        "sl_trans": "Vedela je, kaj ste rekli."
+    },
+    "427": {
+        "sl_source": "Ve, kako zelo si jo ljubil.",
+        "en_source": "She knows how much you love her.",
+        "sl_trans": "Ve, kako zelo jo imate radi."
+    },
+    "428": {
+        "sl_source": "Harry, če boš karkoli potreboval, mi povej, prav?",
+        "en_source": "Harry, if you ever need anything, anything, just tell me, okay?",
+        "sl_trans": "Harry, če boš kdaj kaj potreboval, karkoli, mi samo povej, dobro?"
+    },
+    "430": {
+        "sl_source": "Oče, saj sem ti povedala.",
+        "en_source": "Dad, I told you.",
+        "sl_trans": "Oče, rekel sem ti."
+    },
+    "431": {
+        "sl_source": "O, bog, skočil je.",
+        "en_source": "Jesus, he jumped.",
+        "sl_trans": "Jezus, skočil je."
+    },
+    "435": {
+        "sl_source": "Pomagaj!",
+        "en_source": "Help!",
+        "sl_trans": "Pomoč!"
+    },
+    "437": {
+        "sl_source": "Kdo je?",
+        "en_source": "Who's there?",
+        "sl_trans": "Kdo je tam?"
+    },
+    "438": {
+        "sl_source": "–Sean Brenner.",
+        "en_source": "It's Sean Brenner.",
+        "sl_trans": "To je Sean Brenner."
+    },
+    "439": {
+        "sl_source": "Quinnin oče.",
+        "en_source": "I'm Quinn's father.",
+        "sl_trans": "Sem Quinnov oče."
+    },
+    "440": {
+        "sl_source": "Povedala sem ji, da tega ne počnem več.",
+        "en_source": "I told her I don't really give readings anymore.",
+        "sl_trans": "Povedala sem ji, da v resnici ne berem več."
+    },
+    "441": {
+        "sl_source": "Verjemite, da hočem pomagati, ampak moja sposobnost, da govorim z drugo stranjo, obljubila sem si, da tega ne bom več počela.",
+        "en_source": "Believe me, I wanna help, but this ability I have to contact the other side, I promised myself I wouldn't do it anymore.",
+        "sl_trans": "Verjemite mi, želim pomagati, vendar sem si obljubil, da te sposobnosti, ki jo imam za stik z drugo stranjo, ne bom več uporabljal."
+    },
+    "442": {
+        "sl_source": "O tem ne vem ničesar.",
+        "en_source": "Look, I don't know anything about this stuff.",
+        "sl_trans": "Poglejte, o tem ne vem ničesar."
+    },
+    "443": {
+        "sl_source": "Ne vem, kaj je resnično in kaj ni.",
+        "en_source": "I don't know what's real, what's not.",
+        "sl_trans": "Ne vem, kaj je resnično in kaj ne."
+    },
+    "444": {
+        "sl_source": "Vem le, da je ona resnična.",
+        "en_source": "I only know her, she's real.",
+        "sl_trans": "Poznam samo njo, je resnična."
+    },
+    "445": {
+        "sl_source": "Moja hči je in nekaj jo hoče ubiti, jaz pa ne vem, kako to preprečiti.",
+        "en_source": "She's my daughter, and something's trying to kill her, and I don't know what to do to stop it.",
+        "sl_trans": "Je moja hči in nekaj jo želi ubiti, jaz pa ne vem, kaj naj storim, da bi to ustavil."
+    },
+    "446": {
+        "sl_source": "Tega ne morem spet dopustiti, ne po tem, kar je bilo z ženo.",
+        "en_source": "I can't let that happen again, not after my wife.",
+        "sl_trans": "Tega ne smem več dopustiti, ne po svoji ženi."
+    },
+    "448": {
+        "sl_source": "Žal mi je.",
+        "en_source": "I'm so sorry.",
+        "sl_trans": "Zelo mi je žal."
+    },
+    "449": {
+        "sl_source": "Ljubiti nekoga je le odlaganje bolečine, kajne?",
+        "en_source": "Loving someone is just delayed pain, isn't it?",
+        "sl_trans": "Ljubiti nekoga je le zapoznela bolečina, kajne?"
+    },
+    "450": {
+        "sl_source": "Na koncu jih vedno izgubimo.",
+        "en_source": "Eventually you're gonna lose them one way or the other.",
+        "sl_trans": "Sčasoma jih boste tako ali drugače izgubili."
+    },
+    "452": {
+        "sl_source": "Storil je samomor.",
+        "en_source": "He took his own life.",
+        "sl_trans": "Vzel si je življenje."
+    },
+    "453": {
+        "sl_source": "Tako nisem mogla kriviti niti usode.",
+        "en_source": "So, I couldn't even blame fate.",
+        "sl_trans": "Zato niti nisem mogel kriviti usode."
+    },
+    "454": {
+        "sl_source": "Že prej je imel depresije, ampak nisem si mislila, da.",
+        "en_source": "He'd suffered depression before, but I never thought that.",
+        "sl_trans": "Že prej je trpel za depresijo, vendar nisem nikoli pomislila na to."
+    },
+    "455": {
+        "sl_source": "Toliko stvari sem mu še želela povedati.",
+        "en_source": "There are so many things I needed to say to him.",
+        "sl_trans": "Toliko stvari sem mu morala povedati."
+    },
+    "456": {
+        "sl_source": "Tudi poslovila bi se.",
+        "en_source": "Goodbye would've been nice.",
+        "sl_trans": "Lepo bi bilo, če bi se poslovili."
+    },
+    "457": {
+        "sl_source": "Zato sem ga hotela kontaktirati.",
+        "en_source": "So, I tried to contact him.",
+        "sl_trans": "Poskušal sem stopiti v stik z njim."
+    },
+    "458": {
+        "sl_source": "Nisem si mogla pomagati.",
+        "en_source": "I just couldn't help it.",
+        "sl_trans": "Preprosto si nisem mogel pomagati."
+    },
+    "459": {
+        "sl_source": "Onkraj našega obstajata dva svetova, g.",
+        "en_source": "There are two worlds that exist beyond ours, Mr.",
+        "sl_trans": "Poleg našega sveta obstajata še dva svetova, gospod."
+    },
+    "461": {
+        "sl_source": "Predstavljajte si ju kot en svetel in en temačen.",
+        "en_source": "Think of them as light and dark.",
+        "sl_trans": "Predstavljajte si ju kot svetlo in temno."
+    },
+    "462": {
+        "sl_source": "Iskala sem ga v temačnem svetu, česar še nikoli nisem storila.",
+        "en_source": "I visited the dark, looking for him, something I'd never done before.",
+        "sl_trans": "Obiskal sem temo in ga iskal, česar še nikoli nisem storil."
+    },
+    "463": {
+        "sl_source": "Tega živi ljudje ne bi smeli početi.",
+        "en_source": "Something we living people are not supposed to do.",
+        "sl_trans": "Nekaj, česar živi ljudje ne bi smeli početi."
+    },
+    "464": {
+        "sl_source": "Nekdo mi je sledil nazaj.",
+        "en_source": "But someone followed me back.",
+        "sl_trans": "Toda nekdo mi je sledil nazaj."
+    },
+    "465": {
+        "sl_source": "Ženska, entiteta, ki jo vodi zlo.",
+        "en_source": "A woman, an entity driven by Evil.",
+        "sl_trans": "Ženska, entiteta, ki jo žene Zlo."
+    },
+    "466": {
+        "sl_source": "Od takrat naprej, kadar koli sem uporabila svojo sposobnost, sem to žensko slišala v svoji glavi, kako je vedno znova vpila, da me bo ubila.",
+        "en_source": "Ever since then, whenever I use my ability, this woman, I could hear her in my head, screaming over and over that she's going to kill me.",
+        "sl_trans": "Od takrat sem vedno, ko sem uporabil svojo sposobnost, v glavi slišal to žensko, kako vedno znova kriči, da me bo ubila."
+    },
+    "468": {
+        "sl_source": "Ne, vem, da če s tem nadaljujem, me bo ubila.",
+        "en_source": "No, I know if I continue with this work, she's going to kill me.",
+        "sl_trans": "Ne, vem, da me bo ubila, če bom nadaljeval s tem delom."
+    },
+    "469": {
+        "sl_source": "Potem pa le obiščite Quinn.",
+        "en_source": "Then just visit Quinn.",
+        "sl_trans": "Potem obiščite Quinna."
+    },
+    "470": {
+        "sl_source": "Samo to vas prosim.",
+        "en_source": "It's all I ask.",
+        "sl_trans": "To je vse, kar zahtevam."
+    },
+    "472": {
+        "sl_source": "Samo pogovorite se z njo.",
+        "en_source": "Just talk to her.",
+        "sl_trans": "Pogovorite se z njo."
+    },
+    "473": {
+        "sl_source": "Hvala.",
+        "en_source": "Thank you.",
+        "sl_trans": "Zahvaljujemo se vam."
+    },
+    "474": {
+        "sl_source": "V redu bova.",
+        "en_source": "We're gonna be okay.",
+        "sl_trans": "Vse bo v redu."
+    },
+    "478": {
+        "sl_source": "Še sreča, da ti bela pristoji.",
+        "en_source": "Lucky you look good in white.",
+        "sl_trans": "Na srečo si dobro videti v beli barvi."
+    },
+    "479": {
+        "sl_source": "Kaj se dogaja z mano?",
+        "en_source": "What's happening to me?",
+        "sl_trans": "Kaj se mi dogaja?"
+    },
+    "480": {
+        "sl_source": "Eno noč zatem, ko si me obiskala, sem imela vizijo o tebi.",
+        "en_source": "One night after you came to see me, I had a vision of you.",
+        "sl_trans": "Neke noči, ko si me obiskal, sem imel vizijo o tebi."
+    },
+    "481": {
+        "sl_source": "Stala si v temi.",
+        "en_source": "You were standing in the dark.",
+        "sl_trans": "Stali ste v temi."
+    },
+    "482": {
+        "sl_source": "Proti tebi je šel moški.",
+        "en_source": "A man was walking toward you.",
+        "sl_trans": "Proti vam je hodil moški."
+    },
+    "483": {
+        "sl_source": "Mož, ki ni mogel dihati.",
+        "en_source": "A man who couldn't breathe.",
+        "sl_trans": "Človek, ki ni mogel dihati."
+    },
+    "484": {
+        "sl_source": "Tudi jaz sem bila na tem temačnem kraju.",
+        "en_source": "I've been to that dark place, too.",
+        "sl_trans": "Tudi sam sem bil na tem temnem mestu."
+    },
+    "486": {
+        "sl_source": "Zelo nevarno je.",
+        "en_source": "It is very dangerous.",
+        "sl_trans": "To je zelo nevarno."
+    },
+    "487": {
+        "sl_source": "Ko greš tja, nekatere stvari pridejo nazaj s tabo.",
+        "en_source": "When you go there, things come back with you.",
+        "sl_trans": "Ko greš tja, se stvari vrnejo s teboj."
+    },
+    "489": {
+        "sl_source": "Dolgo življenje imaš pred sabo.",
+        "en_source": "You have a long life ahead of you.",
+        "sl_trans": "Pred vami je dolgo življenje."
+    },
+    "490": {
+        "sl_source": "To ti obljubim.",
+        "en_source": "I cross my heart.",
+        "sl_trans": "Prekrižam svoje srce."
+    },
+    "491": {
+        "sl_source": "Tukaj sem pri Quinn Brenner.",
+        "en_source": "I'm here with Quinn Brenner.",
+        "sl_trans": "Tukaj sem s Quinnom Brennerjem."
+    },
+    "492": {
+        "sl_source": "Hočem govoriti z entiteto, ki se je pripela nanjo.",
+        "en_source": "I want to speak to the entity that has attached itself to her.",
+        "sl_trans": "Govoriti želim z entiteto, ki se je navezala nanjo."
+    },
+    "493": {
+        "sl_source": "Ali me slišiš?",
+        "en_source": "Can you hear me?",
+        "sl_trans": "Ali me slišite?"
+    },
+    "494": {
+        "sl_source": "Si tukaj?",
+        "en_source": "Are you there?",
+        "sl_trans": "Ste tam?"
+    },
+    "495": {
+        "sl_source": "Kje je mož, ki ne more dihati?",
+        "en_source": "Where is the man who can't breathe?",
+        "sl_trans": "Kje je človek, ki ne more dihati?"
+    },
+    "496": {
+        "sl_source": "–Nisem ga hotela razjeziti.",
+        "en_source": "I wasn't trying to upset him.",
+        "sl_trans": "Nisem ga želel razburiti."
+    },
+    "497": {
+        "sl_source": "Pojdi stran od mene!",
+        "en_source": "Get away from me!",
+        "sl_trans": "Umaknite se od mene!"
+    },
+    "498": {
+        "sl_source": "Pojdi stran!",
+        "en_source": "Get away!",
+        "sl_trans": "Umaknite se!"
+    },
+    "499": {
+        "sl_source": "Dlje ne grem.",
+        "en_source": "I'm not going any further.",
+        "sl_trans": "Ne bom več nadaljeval."
+    },
+    "500": {
+        "sl_source": "Vedno sem želela vedeti, kako bom odšla.",
+        "en_source": "I always wanted to know how I would go.",
+        "sl_trans": "Vedno sem želel vedeti, kako bom šel."
+    },
+    "501": {
+        "sl_source": "Povej, prijatelj, kako moj konec je prišel.",
+        "en_source": "Tell me, friend, how I meet my end.",
+        "sl_trans": "Povej mi, prijatelj, kako bom dosegel svoj konec."
+    },
+    "502": {
+        "sl_source": "Ženska, ki me hoče ubiti, me je čakala.",
+        "en_source": "The woman that wants to kill me was waiting for me.",
+        "sl_trans": "Ženska, ki me je hotela ubiti, me je čakala."
+    },
+    "505": {
+        "sl_source": "Ne morem ti pomagati.",
+        "en_source": "I can't help you.",
+        "sl_trans": "Ne morem vam pomagati."
+    },
+    "506": {
+        "sl_source": "Oprosti.",
+        "en_source": "I'm sorry.",
+        "sl_trans": "Žal mi je."
+    },
+    "508": {
+        "sl_source": "Oče, pravim ti, da bi onadva lahko pomagala.",
+        "en_source": "I'm telling you, dad, These guys can help.",
+        "sl_trans": "Pravim ti, oče, ti fantje lahko pomagajo."
+    },
+    "509": {
+        "sl_source": "V tej bolnišnici so tekom več let bili številni strokovnjaki za nadnaravno in potem.",
+        "en_source": "Throughout this hospital over the years, a lot of paranormal experts have come in here and then the.",
+        "sl_trans": "V tej bolnišnici je skozi leta prišlo veliko strokovnjakov za paranormalne pojave in nato."
+    },
+    "510": {
+        "sl_source": "Kaj pa vem.",
+        "en_source": "I don't know.",
+        "sl_trans": "Ne vem."
+    },
+    "511": {
+        "sl_source": "Videti sta kot butca.",
+        "en_source": "They look like fools.",
+        "sl_trans": "Videti so kot bedaki."
+    },
+    "512": {
+        "sl_source": "Našla sta hišo, v kateri je strašilo, in sta jo očistila.",
+        "en_source": "They found a house that was being haunted, and they cleaned it.",
+        "sl_trans": "Našli so hišo, v kateri je strašilo, in jo očistili."
+    },
+    "513": {
+        "sl_source": "Zaupaj mi.",
+        "en_source": "Trust me.",
+        "sl_trans": "Zaupajte mi."
+    },
+    "514": {
+        "sl_source": "Pa ti ne.",
+        "en_source": "I don't.",
+        "sl_trans": "Jaz ne."
+    },
+    "515": {
+        "sl_source": "Oče, nekaj morava storiti.",
+        "en_source": "Dad, we have to do something.",
+        "sl_trans": "Oče, nekaj moramo storiti."
+    },
+    "516": {
+        "sl_source": "Jaz sem Sean, Quinnin oče.",
+        "en_source": "I'm Sean, Quinn's dad.",
+        "sl_trans": "Sem Sean, Quinnov oče."
+    },
+    "517": {
+        "sl_source": "–Zdravo.",
+        "en_source": "Hey.",
+        "sl_trans": "Hej."
+    },
+    "518": {
+        "sl_source": "Specs.",
+        "en_source": "Specs.",
+        "sl_trans": "Specifikacije."
+    },
+    "521": {
+        "sl_source": "Velik oboževalec vaše spletne strani.",
+        "en_source": "Yeah, he's a big fan of your website.",
+        "sl_trans": "Ja, je velik oboževalec vašega spletnega mesta."
+    },
+    "522": {
+        "sl_source": "Spletne serije.",
+        "en_source": "Web series.",
+        "sl_trans": "Spletna serija."
+    },
+    "523": {
+        "sl_source": "–Spletne serije.",
+        "en_source": "Web series.",
+        "sl_trans": "Spletna serija."
+    },
+    "524": {
+        "sl_source": "Pokazal sem mu del, ko ste spravili duha iz hotela.",
+        "en_source": "I showed him that one where you guys get the Ghost out of that one hotel.",
+        "sl_trans": "Pokazal sem mu tisto, v kateri iz enega hotela odpeljete Duha."
+    },
+    "527": {
+        "sl_source": "To je bil dober del.",
+        "en_source": "That was a good one.",
+        "sl_trans": "To je bilo dobro."
+    },
+    "529": {
+        "sl_source": "Hvala, mladenič.",
+        "en_source": "Thanks, little man.",
+        "sl_trans": "Hvala, mali človek."
+    },
+    "530": {
+        "sl_source": "Odlično urejen del.",
+        "en_source": "Some of my best editing on that one.",
+        "sl_trans": "To je bilo moje najboljše urejanje."
+    },
+    "531": {
+        "sl_source": "–Eden najboljših.",
+        "en_source": "Definitely some of our best editing.",
+        "sl_trans": "Vsekakor je to ena naših najboljših montaž."
+    },
+    "532": {
+        "sl_source": "Torej počneta to pogosto?",
+        "en_source": "So, do you guys do this kind of thing often?",
+        "sl_trans": "Ali pogosto počnete kaj takega?"
+    },
+    "533": {
+        "sl_source": "Lovita duhove?",
+        "en_source": "This Ghost hunting?",
+        "sl_trans": "Ta lov na duhove?"
+    },
+    "536": {
+        "sl_source": "Pravzaprav počneva samo to.",
+        "en_source": "It's actually all we do.",
+        "sl_trans": "To je pravzaprav vse, kar počnemo."
+    },
+    "537": {
+        "sl_source": "Dejansko ne počneva ničesar drugega.",
+        "en_source": "We literally don't do anything else.",
+        "sl_trans": "Dobesedno ne počnemo ničesar drugega."
+    },
+    "539": {
+        "sl_source": "Kaj sledi zdaj?",
+        "en_source": "So what happens now?",
+        "sl_trans": "Kaj se bo zgodilo zdaj?"
+    },
+    "540": {
+        "sl_source": "Najbrž pet ali štiri.",
+        "en_source": "Probably five, maybe four.",
+        "sl_trans": "Verjetno pet, morda štiri."
+    },
+    "541": {
+        "sl_source": "Kako, prosim?",
+        "en_source": "Excuse me?",
+        "sl_trans": "Oprostite?"
+    },
+    "542": {
+        "sl_source": "Poklical te bom nazaj.",
+        "en_source": "And I have to call you back.",
+        "sl_trans": "In poklicati vas moram nazaj."
+    },
+    "543": {
+        "sl_source": "Ravno sem med ljudmi.",
+        "en_source": "I'm just with some peeps.",
+        "sl_trans": "Sem samo z nekaterimi ljudmi."
+    },
+    "545": {
+        "sl_source": "Pridite.",
+        "en_source": "Come on.",
+        "sl_trans": "Dajmo."
+    },
+    "546": {
+        "sl_source": "Ona je noter.",
+        "en_source": "She's in here.",
+        "sl_trans": "Tukaj je."
+    },
+    "547": {
+        "sl_source": "Hvala.",
+        "en_source": "Thank you.",
+        "sl_trans": "Zahvaljujemo se vam."
+    },
+    "548": {
+        "sl_source": "Daj v smeti.",
+        "en_source": "Pass the trash.",
+        "sl_trans": "Podajte smeti."
+    },
+    "549": {
+        "sl_source": "–Izvoli.",
+        "en_source": "Here you go.",
+        "sl_trans": "Tukaj je."
+    },
+    "551": {
+        "sl_source": "Oprosti.",
+        "en_source": "Excuse me.",
+        "sl_trans": "Oprostite."
+    },
+    "552": {
+        "sl_source": "Moja po meri narejena kamera ima majhno lečo.",
+        "en_source": "Now, this custom-made camera of mine is outfitted with a small lens.",
+        "sl_trans": "Ta moj fotoaparat, narejen po meri, je opremljen z majhnim objektivom."
+    },
+    "554": {
+        "sl_source": "–V bistvu ni skrita.",
+        "en_source": "It's not basic and it's not hidden.",
+        "sl_trans": "Ni osnovna in ni skrita."
+    },
+    "555": {
+        "sl_source": "Saj je na vidiku, da ujame vse, kar se bo nocoj dogajalo.",
+        "en_source": "'Cause we're keeping it right out in the open to capture whatever may occur tonight.",
+        "sl_trans": "Ker vse skupaj puščamo na prostem, da bi ujeli vse, kar se lahko zgodi nocoj."
+    },
+    "556": {
+        "sl_source": "Včasih pa jo skrijeva.",
+        "en_source": "We do hide it though, sometimes.",
+        "sl_trans": "Včasih jo skrivamo."
+    },
+    "558": {
+        "sl_source": "To je dodatni snemalnik za zvok.",
+        "en_source": "This is our sound backup.",
+        "sl_trans": "To je naša varnostna kopija zvoka."
+    },
+    "559": {
+        "sl_source": "Vsak hrup bo posnet tukaj.",
+        "en_source": "Any noises will be recorded right here.",
+        "sl_trans": "Vse zvoke boste zabeležili tukaj."
+    },
+    "560": {
+        "sl_source": "Kaj pa počnem jaz?",
+        "en_source": "What do I do?",
+        "sl_trans": "Kaj naj storim?"
+    },
+    "562": {
+        "sl_source": "Pojdi spat kot običajno.",
+        "en_source": "You just go to sleep like you normally would.",
+        "sl_trans": "Preprosto zaspite kot običajno."
+    },
+    "563": {
+        "sl_source": "Mi ostanemo budni.",
+        "en_source": "We are the ones who stay awake.",
+        "sl_trans": "Mi smo tisti, ki ostanemo budni."
+    },
+    "564": {
+        "sl_source": "Živijo, Elise.",
+        "en_source": "Hello, Elise.",
+        "sl_trans": "Pozdravljena, Elise."
+    },
+    "565": {
+        "sl_source": "Predolgo je trajalo.",
+        "en_source": "It's been too long.",
+        "sl_trans": "Preteklo je že preveč časa."
+    },
+    "566": {
+        "sl_source": "Hranim te za posebne priložnosti.",
+        "en_source": "I save you for special occasions.",
+        "sl_trans": "Varčujem te za posebne priložnosti."
+    },
+    "568": {
+        "sl_source": "Pravi, da bo nekega dne ona odgovorna za mojo smrt, jaz pa ji verjamem.",
+        "en_source": "She says one day, eventually, I'm going to die by her hand, and I believe her.",
+        "sl_trans": "Pravi, da bom nekega dne umrl z njeno roko, in jaz ji verjamem."
+    },
+    "569": {
+        "sl_source": "Zato sem morala nehati uporabljati svoj dar.",
+        "en_source": "That's why I had to stop using my gift.",
+        "sl_trans": "Zato sem moral prenehati uporabljati svoje darilo."
+    },
+    "570": {
+        "sl_source": "Zdaj pa ugotavljam, da je moj dar vse, kar imam.",
+        "en_source": "But now I'm realizing my gift is all I have.",
+        "sl_trans": "Zdaj pa se zavedam, da je moj dar vse, kar imam."
+    },
+    "572": {
+        "sl_source": "Prvič, si več kot le ena stvar.",
+        "en_source": "First of all, okay, you are more than one thing.",
+        "sl_trans": "Prvič, v redu, ste več kot ena stvar."
+    },
+    "573": {
+        "sl_source": "In drugič, zelo dolgo si pomagala ljudem, da so se znebili teh duhov.",
+        "en_source": "And, second, you've been helping people get rid of these spirits for so long.",
+        "sl_trans": "In drugič, že dolgo pomagaš ljudem, da se znebijo teh duhov."
+    },
+    "574": {
+        "sl_source": "Sčasoma se je moral eden od njih spraviti nate.",
+        "en_source": "Well, eventually, one of them was gonna come after you.",
+        "sl_trans": "Sčasoma bi eden od njih prišel po vas."
+    },
+    "576": {
+        "sl_source": "Močnejša si od nje.",
+        "en_source": "All right, you're stronger than her.",
+        "sl_trans": "V redu, močnejši si od nje."
+    },
+    "577": {
+        "sl_source": "Živa si.",
+        "en_source": "You're alive.",
+        "sl_trans": "Živite."
+    },
+    "578": {
+        "sl_source": "–Ja, živa sem.",
+        "en_source": "Yes, I'm alive.",
+        "sl_trans": "Da, živim."
+    },
+    "579": {
+        "sl_source": "Vendar sem na tem svetu preživela več časa z mrtvimi kot z živimi.",
+        "en_source": "But I have spent more time on this earth among the dead than the living.",
+        "sl_trans": "Vendar sem na tej zemlji preživel več časa med mrtvimi kot živimi."
+    },
+    "580": {
+        "sl_source": "Res misliš, da pomagamo ljudem?",
+        "en_source": "Do you really think we help people, Carl?",
+        "sl_trans": "Ali res misliš, da pomagamo ljudem, Carl?"
+    },
+    "581": {
+        "sl_source": "–Storimo to, kar lahko.",
+        "en_source": "We do what we can.",
+        "sl_trans": "Naredimo, kar je v naši moči."
+    },
+    "582": {
+        "sl_source": "Če nekoga napadejo na ulici, se ta lahko obrne na policijo.",
+        "en_source": "If someone gets attacked by a person on the street, they can go to the police.",
+        "sl_trans": "Če nekoga na ulici napade oseba, se lahko obrne na policijo."
+    },
+    "583": {
+        "sl_source": "Če jih napade nekaj, česar ne morejo videti, česar ne razumejo, potem imajo na voljo samo ljudi, kot smo mi.",
+        "en_source": "If they're attacked by something they can't see, something they can't comprehend, they only have people like us to go to.",
+        "sl_trans": "Če jih napade nekaj, česar ne vidijo, česar ne morejo razumeti, se lahko obrnejo le na ljudi, kot smo mi."
+    },
+    "584": {
+        "sl_source": "Izvoli.",
+        "en_source": "Here.",
+        "sl_trans": "Tukaj."
+    },
+    "585": {
+        "sl_source": "Poglej, kaj si storila za to družino.",
+        "en_source": "Look at what you did for that family.",
+        "sl_trans": "Poglejte, kaj ste storili za to družino."
+    },
+    "586": {
+        "sl_source": "Rešila si jih.",
+        "en_source": "You saved them.",
+        "sl_trans": "Rešili ste jih."
+    },
+    "587": {
+        "sl_source": "Ta fant je sedaj odrasel moški in ima svojega sina.",
+        "en_source": "That boy is a grown man now with a son of his own.",
+        "sl_trans": "Ta fant je zdaj odrasel in ima svojega sina."
+    },
+    "588": {
+        "sl_source": "Nočem, da nehaš pomagati družinam, kot je ta.",
+        "en_source": "I don't want you to stop helping families like them.",
+        "sl_trans": "Ne želim, da bi prenehali pomagati družinam, kot so one."
+    },
+    "589": {
+        "sl_source": "Preveč te potrebujejo.",
+        "en_source": "They need you too much.",
+        "sl_trans": "Preveč vas potrebujejo."
+    },
+    "597": {
+        "sl_source": "To ni mogoče.",
+        "en_source": "That's impossible.",
+        "sl_trans": "To je nemogoče."
+    },
+    "598": {
+        "sl_source": "–Vseeno to počne.",
+        "en_source": "Well, she's doing it.",
+        "sl_trans": "No, ona to počne."
+    },
+    "601": {
+        "sl_source": "Ni je.",
+        "en_source": "She's gone.",
+        "sl_trans": "Odšla je."
+    },
+    "602": {
+        "sl_source": "Pridi.",
+        "en_source": "Come on.",
+        "sl_trans": "Dajmo."
+    },
+    "604": {
+        "sl_source": "Moram po njo.",
+        "en_source": "I gotta go get her.",
+        "sl_trans": "Moram iti po njo."
+    },
+    "607": {
+        "sl_source": "Kar pojdite.",
+        "en_source": "You should go.",
+        "sl_trans": "Morali bi iti."
+    },
+    "609": {
+        "sl_source": "Počakaj.",
+        "en_source": "Wait.",
+        "sl_trans": "Počakajte."
+    },
+    "610": {
+        "sl_source": "Izvoli.",
+        "en_source": "Here.",
+        "sl_trans": "Tukaj."
+    },
+    "611": {
+        "sl_source": "Usmeri svetilko v omaro.",
+        "en_source": "Keep the flashlight on the closet.",
+        "sl_trans": "Svetilko imejte v omari."
+    },
+    "613": {
+        "sl_source": "Odložila jo je.",
+        "en_source": "She took it off.",
+        "sl_trans": "Snemla ga je."
+    },
+    "615": {
+        "sl_source": "Počakaj.",
+        "en_source": "Wait.",
+        "sl_trans": "Počakajte."
+    },
+    "616": {
+        "sl_source": "Popolnoma nekoristen oče si.",
+        "en_source": "You're a useless fucking father.",
+        "sl_trans": "Si neuporaben oče."
+    },
+    "617": {
+        "sl_source": "Tvoja žena je morala umreti, da ti je ušla.",
+        "en_source": "Your wife had to die to get away from you.",
+        "sl_trans": "Tvoja žena je morala umreti, da bi se rešila od tebe."
+    },
+    "619": {
+        "sl_source": "Zdaj bi raje tudi sama umrla, tebe bom pa pustila živeti, da te bom gledala, kako trpiš.",
+        "en_source": "And now I'd rather be dead, too, but I'm gonna keep you alive to watch you suffer.",
+        "sl_trans": "Zdaj bi bil tudi jaz raje mrtev, vendar te bom pustil živega, da te bom gledal, kako trpiš."
+    },
+    "620": {
+        "sl_source": "Čakala te bom v temi, ko te bolečina končno pokonča.",
+        "en_source": "I'll be waiting in the dark when the pain finally kills you.",
+        "sl_trans": "Čakal bom v temi, ko te bo bolečina dokončno ubila."
+    },
+    "621": {
+        "sl_source": "Podaj mi to žico!",
+        "en_source": "Hand me that wire!",
+        "sl_trans": "Podaj mi žico!"
+    },
+    "623": {
+        "sl_source": "Kaj pa sedaj?",
+        "en_source": "What do we do now?",
+        "sl_trans": "Kaj naj storimo zdaj?"
+    },
+    "625": {
+        "sl_source": "Nisva usposobljena za kaj takega.",
+        "en_source": "We are not qualified for this.",
+        "sl_trans": "Za to nismo usposobljeni."
+    },
+    "626": {
+        "sl_source": "Sediva v temnih praznih sobah.",
+        "en_source": "We sit in dark empty rooms.",
+        "sl_trans": "Sedimo v temnih praznih sobah."
+    },
+    "627": {
+        "sl_source": "To je preveč za naju.",
+        "en_source": "This is way out of our league!",
+        "sl_trans": "To je daleč izven naše lige!"
+    },
+    "628": {
+        "sl_source": "Kako to misliš?",
+        "en_source": "What do you mean?",
+        "sl_trans": "Kaj mislite?"
+    },
+    "629": {
+        "sl_source": "Praviš, da nimata pojma, kako nama pomagati?",
+        "en_source": "Are you telling me you have no idea how to help us?",
+        "sl_trans": "Hočete povedati, da nimate pojma, kako nam pomagati?"
+    },
+    "631": {
+        "sl_source": "Torej sta le spletna sleparja?",
+        "en_source": "Are you saying that you're a couple of Goddamn Internet pranksters?",
+        "sl_trans": "Ali pravite, da ste par prekletih internetnih šaljivcev?"
+    },
+    "632": {
+        "sl_source": "Povabil sem vaju v svojo hišo, vidva.",
+        "en_source": "I let you in my house, you two.",
+        "sl_trans": "Dovolil sem vam vstopiti v svojo hišo."
+    },
+    "635": {
+        "sl_source": "Nehaj!",
+        "en_source": "Stop it!",
+        "sl_trans": "Prenehajte!"
+    },
+    "636": {
+        "sl_source": "To ne bo pomagalo Quinn!",
+        "en_source": "This isn't going to help Quinn!",
+        "sl_trans": "To Quinnu ne bo pomagalo!"
+    },
+    "637": {
+        "sl_source": "–Ven iz moje hiše.",
+        "en_source": "Get out!",
+        "sl_trans": "Izstopite!"
+    },
+    "638": {
+        "sl_source": "Izginita ven!",
+        "en_source": "Get out of my house!",
+        "sl_trans": "Izginite iz moje hiše!"
+    },
+    "639": {
+        "sl_source": "Naj ostaneta.",
+        "en_source": "Let them stay.",
+        "sl_trans": "Naj ostanejo."
+    },
+    "643": {
+        "sl_source": "Da mi pomagata, da se znebim tega parazita, ki je napadel vašo hči.",
+        "en_source": "To help me get rid of the foul parasite that's attached itself to your daughter.",
+        "sl_trans": "Da mi pomagaš znebiti se zajedavca, ki se je prilepil na tvojo hčerko."
+    },
+    "644": {
+        "sl_source": "Danes boš prespal pri Ernestu.",
+        "en_source": "I need you to stay at Ernesto's tonight, buddy.",
+        "sl_trans": "Danes zvečer moraš ostati pri Ernestu, prijatelj."
+    },
+    "645": {
+        "sl_source": "Ampak jaz hočem biti tukaj.",
+        "en_source": "But I wanna be here.",
+        "sl_trans": "Vendar želim biti tukaj."
+    },
+    "646": {
+        "sl_source": "–Saj vem.",
+        "en_source": "I know.",
+        "sl_trans": "Vem."
+    },
+    "647": {
+        "sl_source": "Ne bom šel, oče.",
+        "en_source": "I'm not leaving, dad.",
+        "sl_trans": "Ne odidem, oče."
+    },
+    "649": {
+        "sl_source": "Ampak nočeš videti stvari, ki se bodo prikazale nocoj.",
+        "en_source": "But you do not wanna see the things that tonight may show you.",
+        "sl_trans": "Vendar ne želite videti stvari, ki vam jih lahko pokaže nocojšnji večer."
+    },
+    "650": {
+        "sl_source": "Saj bo čutila tvojo ljubezen.",
+        "en_source": "She's gonna feel your love.",
+        "sl_trans": "Čutila bo vašo ljubezen."
+    },
+    "651": {
+        "sl_source": "Lahko noč.",
+        "en_source": "Good night, buddy.",
+        "sl_trans": "Lahko noč, prijatelj."
+    },
+    "652": {
+        "sl_source": "Kaj pa sedaj?",
+        "en_source": "Now what?",
+        "sl_trans": "Kaj zdaj?"
+    },
+    "653": {
+        "sl_source": "Entiteta je zelo močna.",
+        "en_source": "This entity is very powerful.",
+        "sl_trans": "Ta entiteta je zelo močna."
+    },
+    "654": {
+        "sl_source": "To je duh, ki je dolgo časa nazaj živel v tej hiši.",
+        "en_source": "It's a spirit who used to live in this building a long time ago.",
+        "sl_trans": "To je duh, ki je pred davnimi časi živel v tej stavbi."
+    },
+    "655": {
+        "sl_source": "Dolgo časa je bil sam.",
+        "en_source": "It's been alone for a long time.",
+        "sl_trans": "Že dolgo je sam."
+    },
+    "656": {
+        "sl_source": "Zaradi nje pa je močnejši.",
+        "en_source": "But she's making it stronger.",
+        "sl_trans": "Vendar ga krepi."
+    },
+    "657": {
+        "sl_source": "Hrani se z njeno življenjsko energijo.",
+        "en_source": "It's feeding on her life force.",
+        "sl_trans": "Hrani se z njeno življenjsko močjo."
+    },
+    "658": {
+        "sl_source": "Hoče jo obsesti?",
+        "en_source": "And wants to possess her?",
+        "sl_trans": "In jo želi posedovati?"
+    },
+    "659": {
+        "sl_source": "Takšne entitete, ki živijo v temi, navadno hočejo obsesti telesa živih ljudi, da bi lahko zapustili temo in se vrnili v življenje.",
+        "en_source": "Usually, entities of this type, living in the dark, they want to possess the bodies of the living so that they can leave the dark and return to life.",
+        "sl_trans": "Tovrstne entitete, ki živijo v temi, običajno želijo posedovati telesa živih, da bi lahko zapustile temo in se vrnile v življenje."
+    },
+    "660": {
+        "sl_source": "Obstaja pa še ena vrsta duhov.",
+        "en_source": "But there's another kind of a spirit.",
+        "sl_trans": "Obstaja pa še ena vrsta duha."
+    },
+    "661": {
+        "sl_source": "Ti so še hujši.",
+        "en_source": "It's an even worse kind.",
+        "sl_trans": "To je še hujša vrsta."
+    },
+    "662": {
+        "sl_source": "Takšni, ki nočejo zapustiti teme in ki hočejo, da se jim duše živih pridružijo v deželi senc.",
+        "en_source": "One that does not wanna leave the dark, that wants the souls of the living to join it in the shadows.",
+        "sl_trans": "Tisti, ki ne želi zapustiti teme, ki želi, da se mu duše živih pridružijo v senci."
+    },
+    "663": {
+        "sl_source": "Sedaj je le polovična oseba.",
+        "en_source": "She's only half a person right now.",
+        "sl_trans": "Zdaj je le polovična oseba."
+    },
+    "664": {
+        "sl_source": "Po nesreči ji je vzel pol njene duše.",
+        "en_source": "After the accident, it got half her soul.",
+        "sl_trans": "Po nesreči je dobila polovico duše."
+    },
+    "665": {
+        "sl_source": "Potrebuje pa celo.",
+        "en_source": "It needs all of it.",
+        "sl_trans": "Potrebuje vse."
+    },
+    "666": {
+        "sl_source": "Če ne pohitiva, jo bo tudi dobil.",
+        "en_source": "And if we don't hurry, it's going to get it.",
+        "sl_trans": "In če ne bomo pohiteli, jo bo dobila."
+    },
+    "667": {
+        "sl_source": "V redu, kaj pa sedaj?",
+        "en_source": "Okay, what do we do now?",
+        "sl_trans": "Okej, kaj bomo storili zdaj?"
+    },
+    "668": {
+        "sl_source": "Da lahko vašo hči pripeljem nazaj v celoti, moram iti tja, kjer živi.",
+        "en_source": "To bring all of your daughter back, I'm going to have to go to where it lives.",
+        "sl_trans": "Da bi vrnil vse tvoje hčerke, bom moral iti tja, kjer živijo."
+    },
+    "669": {
+        "sl_source": "Lahko snemata vse, tudi v temi?",
+        "en_source": "You can record everything, even in the dark?",
+        "sl_trans": "Lahko snemate vse, tudi v temi?"
+    },
+    "671": {
+        "sl_source": "Karkoli potrebujete.",
+        "en_source": "Whatever you need.",
+        "sl_trans": "Vse, kar potrebujete."
+    },
+    "672": {
+        "sl_source": "Jaz sem tehnični del ekipe.",
+        "en_source": "I'm the technical part of the team.",
+        "sl_trans": "Sem tehnični del ekipe."
+    },
+    "673": {
+        "sl_source": "Potem se pa pripravi.",
+        "en_source": "Then you better get set up.",
+        "sl_trans": "Potem se raje pripravite."
+    },
+    "674": {
+        "sl_source": "Kaj pa ti počneš?",
+        "en_source": "What's your contribution?",
+        "sl_trans": "Kakšen je vaš prispevek?"
+    },
+    "675": {
+        "sl_source": "To bo sedaj dobro.",
+        "en_source": "Yeah, this should be good.",
+        "sl_trans": "Ja, to bi moralo biti dobro."
+    },
+    "676": {
+        "sl_source": "–Ne le dobro, odlično.",
+        "en_source": "- It's not good, it's great.",
+        "sl_trans": "- Ni dobro, je odlično."
+    },
+    "677": {
+        "sl_source": "Skrbim za blog.",
+        "en_source": "It's our blog.",
+        "sl_trans": "To je naš blog."
+    },
+    "678": {
+        "sl_source": "Jaz ga pišem.",
+        "en_source": "I'm the writer of it.",
+        "sl_trans": "Jaz sem njen pisec."
+    },
+    "679": {
+        "sl_source": "V redu, potem si zapiši čisto vse, kar opišem, ko bom tam.",
+        "en_source": "Okay, then, you write down everything I describe when I'm under.",
+        "sl_trans": "Dobro, potem si zapiši vse, kar opišem, ko sem pod vodo."
+    },
+    "680": {
+        "sl_source": "Če mi boš uspel slediti, seveda.",
+        "en_source": "If you can keep up, that is.",
+        "sl_trans": "Če vam uspe slediti."
+    },
+    "681": {
+        "sl_source": "Zdaj odhajam na drugo raven.",
+        "en_source": "Now, I'm going into another plane.",
+        "sl_trans": "Zdaj grem na drugo letalo."
+    },
+    "682": {
+        "sl_source": "Na drugo raven.",
+        "en_source": "Into another plane.",
+        "sl_trans": "V drugo letalo."
+    },
+    "684": {
+        "sl_source": "Ne glede na to, kaj se zgodi in kaj boste videli.",
+        "en_source": "No matter what happens, no matter what you see.",
+        "sl_trans": "Ne glede na to, kaj se zgodi, ne glede na to, kaj vidite."
+    },
+    "686": {
+        "sl_source": "Si lahko le zapisuješ, brez da bi govoril?",
+        "en_source": "Okay, could you just maybe write it down and try not to talk?",
+        "sl_trans": "Okej, ali si lahko to zapišeš in poskušaš ne govoriti?"
+    },
+    "687": {
+        "sl_source": "Ima ta druga raven ime?",
+        "en_source": "Does this other plane have a name?",
+        "sl_trans": "Ali ima to drugo letalo ime?"
+    },
+    "688": {
+        "sl_source": "Imenujmo jo oddaljena raven.",
+        "en_source": "Let's call it the further.",
+        "sl_trans": "Poimenujmo ga nadaljnji."
+    },
+    "689": {
+        "sl_source": "Odlično ime.",
+        "en_source": "Cool name.",
+        "sl_trans": "Kul ime."
+    },
+    "690": {
+        "sl_source": "–Zdaj pa bodimo tiho.",
+        "en_source": "Now, we're going to be quiet.",
+        "sl_trans": "Zdaj bomo tiho."
+    },
+    "691": {
+        "sl_source": "Odhajamo v oddaljeno raven.",
+        "en_source": "Into the further, we go.",
+        "sl_trans": "Odpravimo se v daljavo."
+    },
+    "694": {
+        "sl_source": "Vstopam na hodnik.",
+        "en_source": "I'm entering the hallway.",
+        "sl_trans": "Vstopim na hodnik."
+    },
+    "695": {
+        "sl_source": "Tudi ti si živela v tej stavbi, kajne?",
+        "en_source": "You lived in this building, too?",
+        "sl_trans": "Tudi vi ste živeli v tej stavbi?"
+    },
+    "696": {
+        "sl_source": "Prisilil te je do samomora, kajne?",
+        "en_source": "He made you kill yourself, didn't he?",
+        "sl_trans": "Zaradi njega ste se ubili, kajne?"
+    },
+    "699": {
+        "sl_source": "Odhajava po stopnicah navzgor.",
+        "en_source": "We're going upstairs.",
+        "sl_trans": "Gremo v nadstropje."
+    },
+    "701": {
+        "sl_source": "Bila sem njegova domača žival.",
+        "en_source": "I was his pet.",
+        "sl_trans": "Bil sem njegov hišni ljubljenček."
+    },
+    "702": {
+        "sl_source": "Zdaj ima novo.",
+        "en_source": "He's got a new pet.",
+        "sl_trans": "Ima novega hišnega ljubljenčka."
+    },
+    "703": {
+        "sl_source": "To dekle.",
+        "en_source": "The girl.",
+        "sl_trans": "Dekle."
+    },
+    "704": {
+        "sl_source": "Quinn je njegova nova domača žival.",
+        "en_source": "Quinn is his new pet.",
+        "sl_trans": "Quinn je njegov novi hišni ljubljenček."
+    },
+    "705": {
+        "sl_source": "–Tega se ne da spremeniti.",
+        "en_source": "There's no undoing.",
+        "sl_trans": "Ni razveljavitve."
+    },
+    "706": {
+        "sl_source": "Tudi ubiti se ne moreš, da bi temu ušla.",
+        "en_source": "You can't even kill yourself to get away from it.",
+        "sl_trans": "Ne moreš se niti ubiti, da bi se rešil pred njo."
+    },
+    "708": {
+        "sl_source": "Zdaj si svobodna.",
+        "en_source": "You're free now.",
+        "sl_trans": "Zdaj ste svobodni."
+    },
+    "711": {
+        "sl_source": "Obrni se.",
+        "en_source": "Turn around.",
+        "sl_trans": "Obrnite se."
+    },
+    "712": {
+        "sl_source": "Močnejša si od nje.",
+        "en_source": "You're stronger than her.",
+        "sl_trans": "Ste močnejši od nje."
+    },
+    "713": {
+        "sl_source": "Živa si.",
+        "en_source": "You're alive.",
+        "sl_trans": "Živite."
+    },
+    "714": {
+        "sl_source": "Tako boš umrla.",
+        "en_source": "This is how you die.",
+        "sl_trans": "Tako umreš."
+    },
+    "715": {
+        "sl_source": "–Danes že ne.",
+        "en_source": "Not today, it isn't.",
+        "sl_trans": "Ne danes, ni."
+    },
+    "716": {
+        "sl_source": "Pridi, prasica.",
+        "en_source": "Come on, bitch.",
+        "sl_trans": "Daj no, punca."
+    },
+    "717": {
+        "sl_source": "Izpusti jo.",
+        "en_source": "Let her go.",
+        "sl_trans": "Pustite jo."
+    },
+    "718": {
+        "sl_source": "Me slišiš?",
+        "en_source": "Do you hear me?",
+        "sl_trans": "Ali me slišite?"
+    },
+    "719": {
+        "sl_source": "Izpusti dekle.",
+        "en_source": "Release the girl!",
+        "sl_trans": "Spustite dekle!"
+    },
+    "721": {
+        "sl_source": "Živijo, Ellie.",
+        "en_source": "Hi, Ellie.",
+        "sl_trans": "Pozdravljena, Ellie."
+    },
+    "722": {
+        "sl_source": "Pridi.",
+        "en_source": "Come.",
+        "sl_trans": "Pridite."
+    },
+    "723": {
+        "sl_source": "Sedi tukaj z mano.",
+        "en_source": "Sit here with me.",
+        "sl_trans": "Sedite tukaj z mano."
+    },
+    "724": {
+        "sl_source": "–Kaj počneš tukaj?",
+        "en_source": "What are you doing here?",
+        "sl_trans": "Kaj počnete tukaj?"
+    },
+    "725": {
+        "sl_source": "Čutil sem, da si tukaj.",
+        "en_source": "Well, I could feel you were here.",
+        "sl_trans": "Čutil sem, da si tu."
+    },
+    "726": {
+        "sl_source": "Moral sem te poiskati.",
+        "en_source": "I had to find you.",
+        "sl_trans": "Moral sem te najti."
+    },
+    "727": {
+        "sl_source": "–Tako sem te pogrešala.",
+        "en_source": "I've missed you so much.",
+        "sl_trans": "Zelo sem te pogrešala."
+    },
+    "728": {
+        "sl_source": "Saj vem.",
+        "en_source": "I know.",
+        "sl_trans": "Vem."
+    },
+    "730": {
+        "sl_source": "Še posloviti se nisem mogla.",
+        "en_source": "I never even got to say goodbye.",
+        "sl_trans": "Nikoli se nisem mogel niti posloviti."
+    },
+    "731": {
+        "sl_source": "Mogoče pa lahko greš naprej.",
+        "en_source": "Well, maybe you can move on.",
+        "sl_trans": "Morda se lahko premaknete naprej."
+    },
+    "732": {
+        "sl_source": "Nikjer ne morem obstajati brez tebe.",
+        "en_source": "I can't exist anywhere without you.",
+        "sl_trans": "Brez tebe ne morem obstajati nikjer."
+    },
+    "733": {
+        "sl_source": "Zato sem te hotel prositi, da se mi pridružiš tukaj.",
+        "en_source": "So, I wanted to ask you to join me here.",
+        "sl_trans": "Zato sem vas želel prositi, da se mi pridružite."
+    },
+    "734": {
+        "sl_source": "Svoj drugi svet bi morala zapustiti.",
+        "en_source": "You'd have to leave your other world behind.",
+        "sl_trans": "Svoj drugi svet boš moral pustiti za seboj."
+    },
+    "735": {
+        "sl_source": "Nehala bi dihati, tako kot sem jaz.",
+        "en_source": "Stop breathing in it, like I did.",
+        "sl_trans": "Nehajte ga dihati, kot sem ga dihal jaz."
+    },
+    "736": {
+        "sl_source": "Ostani tukaj z mano.",
+        "en_source": "Stay with me here.",
+        "sl_trans": "Tukaj ostanite z mano."
+    },
+    "737": {
+        "sl_source": "To boš morala storiti sama.",
+        "en_source": "You'll have to do it yourself.",
+        "sl_trans": "To boste morali storiti sami."
+    },
+    "738": {
+        "sl_source": "Ne morem ti pomagati.",
+        "en_source": "I can't help you.",
+        "sl_trans": "Ne morem vam pomagati."
+    },
+    "739": {
+        "sl_source": "Ne želiš biti z mano?",
+        "en_source": "Don't you want to be with me?",
+        "sl_trans": "Si ne želiš biti z mano?"
+    },
+    "740": {
+        "sl_source": "Želeti.",
+        "en_source": "Want.",
+        "sl_trans": "Želite."
+    },
+    "741": {
+        "sl_source": "Želeti ni dovolj močna beseda.",
+        "en_source": "Want is not a strong enough word.",
+        "sl_trans": "Želja ni dovolj močna beseda."
+    },
+    "742": {
+        "sl_source": "Vem, da bo moj čas prišel.",
+        "en_source": "I know my turn to cross over will come.",
+        "sl_trans": "Vem, da bo prišel moj čas, da prestopim."
+    },
+    "743": {
+        "sl_source": "Vem pa tudi, da me moj Jack tega nikoli ne bi prosil.",
+        "en_source": "But I know that my Jack would never ask me to do this.",
+        "sl_trans": "Vendar vem, da me moj Jack nikoli ne bi prosil, naj to storim."
+    },
+    "745": {
+        "sl_source": "Daj mi dekle takoj, sicer bo še veliko huje!",
+        "en_source": "Give me the girl now or I'll do a whole lot worse!",
+        "sl_trans": "Zdaj mi dajte dekle, sicer bom naredil še kaj hujšega!"
+    },
+    "746": {
+        "sl_source": "Vrni jo nazaj.",
+        "en_source": "Give her back.",
+        "sl_trans": "Vrnite jo."
+    },
+    "747": {
+        "sl_source": "Morda imaš polovico nje, ampak jaz sem cela in jaz sem zelo močna.",
+        "en_source": "You may have half of her, but I am whole, and I am very strong.",
+        "sl_trans": "Ti imaš morda polovico nje, a jaz sem celota in zelo močna."
+    },
+    "748": {
+        "sl_source": "–Draga, prosim.",
+        "en_source": "Honey, please.",
+        "sl_trans": "Med, prosim."
+    },
+    "749": {
+        "sl_source": "Kaj se dogaja z njo?",
+        "en_source": "What's happening to her?",
+        "sl_trans": "Kaj se ji dogaja?"
+    },
+    "751": {
+        "sl_source": "Zbudi se.",
+        "en_source": "Wake up.",
+        "sl_trans": "Zbudite se."
+    },
+    "752": {
+        "sl_source": "Ne dovoli, da te vzame.",
+        "en_source": "don't let it take you.",
+        "sl_trans": "ne dovolite, da vas prevzame."
+    },
+    "755": {
+        "sl_source": "Ne odhajaj!",
+        "en_source": "don't leave!",
+        "sl_trans": "ne odhajajte!"
+    },
+    "756": {
+        "sl_source": "Ostani z nami!",
+        "en_source": "Stay with us!",
+        "sl_trans": "Ostanite z nami!"
+    },
+    "757": {
+        "sl_source": "Ta svet je tvoj dom!",
+        "en_source": "This world is your home!",
+        "sl_trans": "Ta svet je vaš dom!"
+    },
+    "758": {
+        "sl_source": "Ne tisti, ta je!",
+        "en_source": "Not that one, This one!",
+        "sl_trans": "Ne ta, ampak ta!"
+    },
+    "761": {
+        "sl_source": "–Držite jo.",
+        "en_source": "Just hold on to her.",
+        "sl_trans": "Samo držite se je."
+    },
+    "763": {
+        "sl_source": "Rekli ste, da jo lahko pripeljete nazaj!",
+        "en_source": "You said you could bring her back!",
+        "sl_trans": "Rekel si, da jo lahko pripelješ nazaj!"
+    },
+    "764": {
+        "sl_source": "Pomagati mi morate.",
+        "en_source": "You need to help me.",
+        "sl_trans": "Pomagati mi moraš."
+    },
+    "765": {
+        "sl_source": "Pridi nazaj k nam!",
+        "en_source": "Come back to us!",
+        "sl_trans": "Vrnite se k nam!"
+    },
+    "767": {
+        "sl_source": "Tukaj je še ena ženska, ki je umrla v tej stavbi pred nekaj dnevi.",
+        "en_source": "There's another woman here who died in this building a few days ago.",
+        "sl_trans": "Pred nekaj dnevi je v tej stavbi umrla še ena ženska."
+    },
+    "768": {
+        "sl_source": "Ja, Grace, žena od soseda.",
+        "en_source": "Yeah, Grace, the neighbor's wife.",
+        "sl_trans": "Ja, Grace, sosedova žena."
+    },
+    "769": {
+        "sl_source": "Nekaj mi govori, ampak je ne slišim dobro.",
+        "en_source": "She's saying something to me, I can't hear it exactly.",
+        "sl_trans": "Nekaj mi govori, ne slišim natančno."
+    },
+    "770": {
+        "sl_source": "Kaj govori?",
+        "en_source": "What is she saying?",
+        "sl_trans": "Kaj pravi?"
+    },
+    "771": {
+        "sl_source": "–Draga, prosim!",
+        "en_source": "Honey, please!",
+        "sl_trans": "Med, prosim!"
+    },
+    "774": {
+        "sl_source": "Quinnin dnevnik.",
+        "en_source": "Quinn's diary.",
+        "sl_trans": "Quinnov dnevnik."
+    },
+    "776": {
+        "sl_source": "Quinn, hotela sem, da to najdeš na dan, ko boš diplomirala.",
+        "en_source": "Quinn, I wanted you to find this on the day you graduated.",
+        "sl_trans": "Quinn, želel sem, da to najdeš na dan, ko boš diplomirala."
+    },
+    "777": {
+        "sl_source": "To pismo je Lily skrila pred Quinn.",
+        "en_source": "This is the letter that Lily hid from Quinn.",
+        "sl_trans": "To je pismo, ki ga je Lily skrivala pred Quinnom."
+    },
+    "778": {
+        "sl_source": "Hotela je, da ga najde, ko diplomira.",
+        "en_source": "She wanted her to find it on her graduation day.",
+        "sl_trans": "Želela je, da ga najde na dan diplome."
+    },
+    "779": {
+        "sl_source": "Skušala jo je prepričati, da ga prebere prej.",
+        "en_source": "She tried to get her to read it early.",
+        "sl_trans": "Poskušala jo je pripraviti do tega, da bi jo prebrala že prej."
+    },
+    "780": {
+        "sl_source": "Res je hotela kontaktirati Quinn.",
+        "en_source": "She was trying to reach Quinn.",
+        "sl_trans": "Poskušala je priti do Quinna."
+    },
+    "782": {
+        "sl_source": "–Lily, vem, da si jo hotela doseči.",
+        "en_source": "Lily, I know you were trying to reach her.",
+        "sl_trans": "Lily, vem, da si jo poskušala doseči."
+    },
+    "783": {
+        "sl_source": "Vemo, da si hotela, da prebere to pismo.",
+        "en_source": "We know that you wanted her to read this letter.",
+        "sl_trans": "Vemo, da ste želeli, da prebere to pismo."
+    },
+    "785": {
+        "sl_source": "Pomagaj nam.",
+        "en_source": "Help us.",
+        "sl_trans": "Pomagajte nam."
+    },
+    "787": {
+        "sl_source": "Hvala vam.",
+        "en_source": "Thank you.",
+        "sl_trans": "Zahvaljujemo se vam."
+    },
+    "788": {
+        "sl_source": "–Imeli smo malo pomoči.",
+        "en_source": "We had some help.",
+        "sl_trans": "Imeli smo nekaj pomoči."
+    },
+    "790": {
+        "sl_source": "Še nekdo drug je danes z nami.",
+        "en_source": "Someone else is here with us.",
+        "sl_trans": "Z nami je še nekdo drug."
+    },
+    "791": {
+        "sl_source": "Nekdo, ki res želi govoriti s tabo.",
+        "en_source": "Someone who really wants to talk to you.",
+        "sl_trans": "Nekdo, ki se resnično želi pogovarjati z vami."
+    },
+    "793": {
+        "sl_source": "Moram vedeti, da je to resnično.",
+        "en_source": "I need to know that this is real.",
+        "sl_trans": "Vedeti moram, da je to resnično."
+    },
+    "795": {
+        "sl_source": "Govori nekaj o odru in o avdiciji.",
+        "en_source": "She's saying something about a stage, an audition.",
+        "sl_trans": "Govori nekaj o odru, avdiciji."
+    },
+    "796": {
+        "sl_source": "Pravi, da si hotela vedeti, ali je bila s tabo, ko si bila na odru.",
+        "en_source": "She says that when you were on stage, you wanted to know if she was there.",
+        "sl_trans": "Pravi, da si na odru želel vedeti, ali je tam tudi ona."
+    },
+    "797": {
+        "sl_source": "Bila je.",
+        "en_source": "She was there.",
+        "sl_trans": "Bila je tam."
+    },
+    "798": {
+        "sl_source": "Bila je zelo ponosna nate.",
+        "en_source": "And she was so proud of you.",
+        "sl_trans": "In bila je tako ponosna nate."
+    },
+    "799": {
+        "sl_source": "Želi da oba, ti in Sean, vesta, da vama je ni treba več iskati.",
+        "en_source": "She wants you, and you, Sean, to know that you don't need to look for her anymore.",
+        "sl_trans": "Želi, da ti in ti, Sean, veš, da ti je ni treba več iskati."
+    },
+    "800": {
+        "sl_source": "Vedno bo z vama.",
+        "en_source": "Because she'll always be with you.",
+        "sl_trans": "Ker bo vedno z vami."
+    },
+    "802": {
+        "sl_source": "Vedno vama bo stala ob strani.",
+        "en_source": "She's gonna be standing right beside you.",
+        "sl_trans": "Stala bo tik ob tebi."
+    },
+    "803": {
+        "sl_source": "Čeprav je ne bosta videla, bo tukaj.",
+        "en_source": "And even though you can't see her, she's there.",
+        "sl_trans": "In čeprav je ne vidite, je tam."
+    },
+    "804": {
+        "sl_source": "Kadarkoli bosta zmedena ali osamljena, vama bo šepetala v uho.",
+        "en_source": "And anytime you're feeling confused or alone, she's gonna be whispering in your ear.",
+        "sl_trans": "Kadarkoli se boste počutili zmedeni ali osamljeni, vam bo šepetala na uho."
+    },
+    "805": {
+        "sl_source": "Nikoli ne bo prišla nazaj, kajne?",
+        "en_source": "She's never coming back again, is she?",
+        "sl_trans": "Ne bo se nikoli več vrnila, kajne?"
+    },
+    "806": {
+        "sl_source": "Ne v ta svet.",
+        "en_source": "Not to this world.",
+        "sl_trans": "Ne za ta svet."
+    },
+    "808": {
+        "sl_source": "Dobro opravljeno, fanta.",
+        "en_source": "Good job, boys.",
+        "sl_trans": "Dobro delo, fantje."
+    },
+    "811": {
+        "sl_source": "Sta prvič videla duha?",
+        "en_source": "Is that the first time you've seen a Ghost?",
+        "sl_trans": "Ali ste prvič videli duha?"
+    },
+    "812": {
+        "sl_source": "Torej.",
+        "en_source": "Well.",
+        "sl_trans": "Dobro."
+    },
+    "813": {
+        "sl_source": "–Ja.",
+        "en_source": "Yes.",
+        "sl_trans": "Da."
+    },
+    "814": {
+        "sl_source": "Tega se nikoli ne navadiš.",
+        "en_source": "You never get used to it.",
+        "sl_trans": "Na to se nikoli ne navadiš."
+    },
+    "815": {
+        "sl_source": "Spektralna videnja, to mi je pa všeč.",
+        "en_source": "Spectral sightings, I like that.",
+        "sl_trans": "Spektralna opažanja, to mi je všeč."
+    },
+    "816": {
+        "sl_source": "Moja zamisel.",
+        "en_source": "That one's mine.",
+        "sl_trans": "Ta je moja."
+    },
+    "817": {
+        "sl_source": "–Kaj res?",
+        "en_source": "Is it?",
+        "sl_trans": "Ali je?"
+    },
+    "818": {
+        "sl_source": "Nehajta.",
+        "en_source": "Stop.",
+        "sl_trans": "Ustavite se."
+    },
+    "819": {
+        "sl_source": "Preveč se prepirata.",
+        "en_source": "You boys fight too much.",
+        "sl_trans": "Fantje se preveč prepirate."
+    },
+    "820": {
+        "sl_source": "To je res nepotrebno.",
+        "en_source": "It's unnecessary.",
+        "sl_trans": "To je nepotrebno."
+    },
+    "821": {
+        "sl_source": "Očitno je, da potrebujeta eden drugega.",
+        "en_source": "It's clear you both need each other.",
+        "sl_trans": "Jasno je, da oba potrebujeta drug drugega."
+    },
+    "822": {
+        "sl_source": "Mogoče bi lahko delali skupaj.",
+        "en_source": "Maybe we should go into business together?",
+        "sl_trans": "Morda bi morala skupaj začeti poslovati?"
+    },
+    "823": {
+        "sl_source": "Niste rekli, da je ta posel preveč nevaren in da lahko umrete.",
+        "en_source": "I thought you said this business was too dangerous for you and you said it could kill you.",
+        "sl_trans": "Mislil sem, da ste rekli, da je ta posel za vas preveč nevaren in da vas lahko ubije."
+    },
+    "824": {
+        "sl_source": "Vsakdo mora enkrat umreti.",
+        "en_source": "Well, everybody's gonna die one day.",
+        "sl_trans": "Vsakdo bo nekega dne umrl."
+    },
+    "825": {
+        "sl_source": "Mislim, da je skrajni čas, da se spravim iz hiše, dokler sem še živa.",
+        "en_source": "I think it is high time for me to get out of my house while I'm still alive.",
+        "sl_trans": "Mislim, da je skrajni čas, da se umaknem iz hiše, dokler sem še živ."
+    },
+    "826": {
+        "sl_source": "Kaj pravita?",
+        "en_source": "What do you think?",
+        "sl_trans": "Kaj menite vi?"
+    },
+    "827": {
+        "sl_source": "–Seveda.",
+        "en_source": "Sure.",
+        "sl_trans": "Jasno."
+    },
+    "828": {
+        "sl_source": "Potem pa me odpeljita do avta.",
+        "en_source": "Well then, take me to my car.",
+        "sl_trans": "Odpelji me do mojega avtomobila."
+    },
+    "829": {
+        "sl_source": "To je super.",
+        "en_source": "That's great.",
+        "sl_trans": "To je odlično."
+    },
+    "830": {
+        "sl_source": "Mislim tudi, da bi morala obleči kaj boljšega, če bomo delali skupaj.",
+        "en_source": "I also think that you guys should think about wearing something a little better, if we're gonna be working together.",
+        "sl_trans": "Mislim tudi, da bi morali razmisliti o tem, da bi nosili kaj boljšega, če bomo delali skupaj."
+    },
+    "831": {
+        "sl_source": "Ta majica je zelo redek kos oblačila.",
+        "en_source": "I'll have you know this tee is extremely rare.",
+        "sl_trans": "Vem, da je ta majica izjemno redka."
+    },
+    "832": {
+        "sl_source": "–Gotovo je.",
+        "en_source": "- Well, I'm sure it is.",
+        "sl_trans": "- Prepričan sem, da je."
+    },
+    "833": {
+        "sl_source": "Zato se raje opravičite.",
+        "en_source": "So, you should apologize.",
+        "sl_trans": "Zato bi se morali opravičiti."
+    },
+    "835": {
+        "sl_source": "Kaj pa naj bi oblekla?",
+        "en_source": "What would you have us wear instead?",
+        "sl_trans": "Kaj bi nas namesto tega oblekli?"
+    },
+    "836": {
+        "sl_source": "Srajco in kravato, to bi bilo v redu.",
+        "en_source": "Shirt and tie might be nice.",
+        "sl_trans": "Srajca in kravata bi bila lahko lepa."
+    },
+    "837": {
+        "sl_source": "Nikoli.",
+        "en_source": "Ain't gonna happen.",
+        "sl_trans": "To se ne bo zgodilo."
+    },
+    "838": {
+        "sl_source": "Warren, moj stari kuža.",
+        "en_source": "Warren, you old dog.",
+        "sl_trans": "Warren, stari pes."
+    },
+    "839": {
+        "sl_source": "Hvala, ker paziš name.",
+        "en_source": "Thank you for looking after me.",
+        "sl_trans": "Hvala, ker ste poskrbeli zame."
+    },
+    "840": {
+        "sl_source": "Tudi jaz imam rada tebe, Jack.",
+        "en_source": "I love you too, Jack.",
+        "sl_trans": "Tudi jaz te imam rada, Jack."
+    }
+}
