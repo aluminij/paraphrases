@@ -20,7 +20,7 @@ def en_paraphrase(df: pd.DataFrame, n_para: int=3):
     model = model.to(device)
 
     for i, row in df.iterrows():
-        phrase = row["eng_source"]
+        phrase = row["en_source"]
         encoding = tokenizer.encode_plus(phrase, max_length=128, padding=True, return_tensors="pt")
         input_ids, attention_mask  = encoding["input_ids"].to(device), encoding["attention_mask"].to(device)
 
@@ -33,7 +33,7 @@ def en_paraphrase(df: pd.DataFrame, n_para: int=3):
             num_beams=15,
             num_return_sequences=n_para
         )
-        en_phrases = [row["eng_source"]]
+        en_phrases = [row["en_source"]]
         j = 1
         for beam_output in beam_outputs:
             sent = tokenizer.decode(beam_output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
@@ -103,7 +103,7 @@ def compare_phrases(f_name: str):
 
     
 
-f_suffix = "ah"
+f_suffix = "zz"
 
 # prep for aligning
 # split_text(f_suffix)
@@ -120,6 +120,10 @@ f_suffix = "ah"
 # run english paraphrase generator
 with open(f'interim/paras_{f_suffix}.json', encoding="utf-8") as json_file:
     df = pd.DataFrame.from_dict(json.load(json_file), orient="index")
-    df_para = en_paraphrase(df)
+df_para = en_paraphrase(df)
+with open(f"processed/paras_{f_suffix}_added.json", "w", encoding="utf-8") as f:
+    json.dump(df_para.to_dict(orient="index"), f, ensure_ascii=False)
+pass
+
 
 
