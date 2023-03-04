@@ -3,11 +3,48 @@ import json
 import os
 import pandas as pd
 import re
+import torch
 from dotenv import load_dotenv
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from sentence_transformers import SentenceTransformer, util
 
 load_dotenv()
 translator = deepl.Translator(os.getenv("AUTH_KEY"))
+
+
+def en_paraphrase(df: pd.DataFrame, n_para: int=3):
+    model = AutoModelForSeq2SeqLM.from_pretrained("ramsrigouthamg/t5-large-paraphraser-diverse-high-quality")
+    tokenizer = AutoTokenizer.from_pretrained("ramsrigouthamg/t5-large-paraphraser-diverse-high-quality")
+
+    device = torch.device("cpu")
+    model = model.to(device)
+
+    for i, row in df.iterrows():
+        phrase = row["eng_source"]
+        encoding = tokenizer.encode_plus(phrase, max_length=128, padding=True, return_tensors="pt")
+        input_ids, attention_mask  = encoding["input_ids"].to(device), encoding["attention_mask"].to(device)
+
+        model.eval()
+        beam_outputs = model.generate(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            max_length=128,
+            early_stopping=True,
+            num_beams=15,
+            num_return_sequences=n_para
+        )
+        en_phrases = [row["eng_source"]]
+        j = 1
+        for beam_output in beam_outputs:
+            sent = tokenizer.decode(beam_output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            sent = sent.replace("paraphrasedoutput: ", "")
+            if sent not in en_phrases:
+                en_phrases.append(sent)
+                df.loc[i, f"en_para_{j}"] = sent
+                j += 1
+    return df
+
+
 
 def read_aligned(f_name: str, lang: str="en") -> pd.DataFrame:
     if lang == "en":
@@ -67,18 +104,22 @@ def compare_phrases(f_name: str):
     
 
 f_suffix = "ah"
-compare_phrases(f_suffix)
+
+# prep for aligning
 # split_text(f_suffix)
 # split_text(f_suffix, lang="sl")
 
+# translating
+# sl_df = pd.read_csv(f"formatted/sl_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n", encoding="utf-8")
+# en_df = pd.read_csv(f"formatted/en_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n")
+# para_df = create_trans_df(sl_df, en_df, f_suffix)
 
-sl_df = pd.read_csv(f"formatted/sl_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n", encoding="utf-8")
-en_df = pd.read_csv(f"formatted/en_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n")
+# with open(f"interim/paras_{f_suffix}.json", "w", encoding="utf-8") as f:
+#     json.dump(para_df.to_dict(orient="index"), f, ensure_ascii=False)
 
-para_df = create_trans_df(sl_df, en_df, f_suffix)
-# remove entries with identical translations
-with open(f"interim/paras_{f_suffix}.json", "w", encoding="utf-8") as f:
-    json.dump(para_df.to_dict(orient="index"), f, ensure_ascii=False)
-
+# run english paraphrase generator
+with open(f'interim/paras_{f_suffix}.json', encoding="utf-8") as json_file:
+    df = pd.DataFrame.from_dict(json.load(json_file), orient="index")
+    df_para = en_paraphrase(df)
 
 
