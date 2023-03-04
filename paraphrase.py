@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import re
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 
 load_dotenv()
 translator = deepl.Translator(os.getenv("AUTH_KEY"))
@@ -55,19 +55,21 @@ def compare_phrases(f_name: str):
     model = SentenceTransformer('sentence-transformers/LaBSE')
     with open(f'interim/paras_{f_name}.json', encoding="utf-8") as json_file:
         d = json.load(json_file)
-    for k, v in d.items():
-        s = [v["sl_source"], v["sl_trans"]]
+    df_sims = pd.DataFrame.from_dict(d, orient="index")
+    for i, row in df_sims.iterrows():
+        s = [row["sl_source"], row["sl_trans"]]
         e = model.encode(s)
-        print(e)
+        df_sims.loc[i, "cos_sim"] = util.pytorch_cos_sim(e[0], e[1]).item()
+    df_sims = df_sims.sort_values("cos_sim")
+    with open(f"processed/paras_{f_name}_sims.json", "w", encoding="utf-8") as f:
+        json.dump(df_sims.to_dict(orient="index"), f, ensure_ascii=False)
 
+    
 
-    d = json.load(f"interim/paras_{f_name}")
-
-
-f_suffix = "fq"
+f_suffix = "ah"
 compare_phrases(f_suffix)
-#split_text(f_suffix)
-#split_text(f_suffix, lang="sl")
+# split_text(f_suffix)
+# split_text(f_suffix, lang="sl")
 
 
 sl_df = pd.read_csv(f"formatted/sl_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n", encoding="utf-8")
