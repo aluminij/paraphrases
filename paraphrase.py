@@ -45,7 +45,6 @@ def en_paraphrase(df: pd.DataFrame, n_para: int=3):
     return df
 
 
-
 def read_aligned(f_name: str, lang: str="en") -> pd.DataFrame:
     if lang == "en":
         df = pd.read_csv(f"aligned/en_{f_name}.txt", header=None, sep="\n|\r\n")
@@ -101,6 +100,27 @@ def compare_phrases(f_name: str):
     with open(f"processed/paras_{f_name}_sims.json", "w", encoding="utf-8") as f:
         json.dump(df_sims.to_dict(orient="index"), f, ensure_ascii=False)
 
+
+def slice_files(f_name: str, batch_size: int=100):
+    """
+    Function for slicing .json files into ones containing one batch of data.
+    Needed because processing larger files takes too much time at once. 
+    """
+    f = f"data/interim/paras_{f_name}.json"
+    with open(f, encoding="utf-8") as json_file:
+        df_whole = pd.DataFrame.from_dict(json.load(json_file), orient="index")
+        i = 1
+        sliced = False
+        while not sliced:
+            with open(f"data/sliced/paras_{f_name}_{i}.json", "w", encoding="utf-8") as sliced_f:
+                if len(df_whole.index) > batch_size:
+                    df = df_whole.iloc[:batch_size]
+                    df_whole = df_whole.iloc[batch_size:]
+                else:
+                    df = df_whole
+                    sliced = True
+                json.dump(df.to_dict(orient="index"), sliced_f, ensure_ascii=False)
+                i += 1
     
 
 f_suffix = "zz"
