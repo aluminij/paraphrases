@@ -12,6 +12,21 @@ load_dotenv()
 translator = deepl.Translator(os.getenv("AUTH_KEY"))
 
 
+def format_sentence(s: str) -> str:
+    s = re.sub("(?<=\?|\!|\.)\s.*", "", s.replace("paraphrasedoutput: ", ""))
+    return s
+
+
+def add_paraphrase(p_list: list, p0: str) -> bool:
+    p0_stripped = re.sub(r'[^A-Za-z0-9 ]+', '', p0).lower()
+    for p in p_list:
+        p = re.sub(r'[^A-Za-z0-9 ]+', '', p).lower()
+        if p == p0_stripped:
+            return False
+    return True        
+
+
+
 def en_paraphrase(df: pd.DataFrame, n_para: int=3):
     model = AutoModelForSeq2SeqLM.from_pretrained("ramsrigouthamg/t5-large-paraphraser-diverse-high-quality")
     tokenizer = AutoTokenizer.from_pretrained("ramsrigouthamg/t5-large-paraphraser-diverse-high-quality")
@@ -37,10 +52,10 @@ def en_paraphrase(df: pd.DataFrame, n_para: int=3):
         j = 1
         for beam_output in beam_outputs:
             sent = tokenizer.decode(beam_output, skip_special_tokens=True, clean_up_tokenization_spaces=True)
-            sent = sent.replace("paraphrasedoutput: ", "")
-            if sent not in en_phrases:
-                en_phrases.append(sent)
-                df.loc[i, f"en_para_{j}"] = sent
+            sent_f = format_sentence(sent)
+            if add_paraphrase(en_phrases, sent_f):
+                en_phrases.append(sent_f)
+                df.loc[i, f"en_para_{j}"] = sent_f
                 j += 1
     return df
 
@@ -86,7 +101,6 @@ def create_trans_df(sl_df: pd.DataFrame, en_df: pd.DataFrame, f_name: str) -> pd
             para_df.loc[i] = [sl_df.loc[i, 0], row[0], sl_trans]
     return para_df.dropna(how="all") 
 
-
 def compare_phrases(f_name: str):
     model = SentenceTransformer('sentence-transformers/LaBSE')
     with open(f'interim/paras_{f_name}.json', encoding="utf-8") as json_file:
@@ -99,7 +113,6 @@ def compare_phrases(f_name: str):
     df_sims = df_sims.sort_values("cos_sim")
     with open(f"processed/paras_{f_name}_sims.json", "w", encoding="utf-8") as f:
         json.dump(df_sims.to_dict(orient="index"), f, ensure_ascii=False)
-
 
 def slice_files(f_name: str, batch_size: int=100):
     """
@@ -123,7 +136,7 @@ def slice_files(f_name: str, batch_size: int=100):
                 i += 1
     
 
-f_suffix = "zz"
+f_suffix = "be"
 
 # prep for aligning
 # split_text(f_suffix)
@@ -133,9 +146,20 @@ f_suffix = "zz"
 # sl_df = pd.read_csv(f"formatted/sl_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n", encoding="utf-8")
 # en_df = pd.read_csv(f"formatted/en_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n")
 # para_df = create_trans_df(sl_df, en_df, f_suffix)
+i = 7
+df_processed = pd.DataFrame()
+while i <= 7:    
+    with open(f'data/sliced/paras_{f_suffix}_{i}.json', encoding="utf-8") as json_file:
+        df = pd.DataFrame.from_dict(json.load(json_file), orient="index")
+        df_processed = pd.concat([df_processed, en_paraphrase(df)])
+        with open(f"data/processed/paras_{f_suffix}_{i}.json", "w", encoding="utf-8") as f:
+            json.dump(df.to_dict(orient="index"), f, ensure_ascii=False)
+    i += 1
+with open(f"data/processed/paras_{f_suffix}.json", "w", encoding="utf-8") as f:
+    json.dump(df_processed.to_dict(orient="index"), f, ensure_ascii=False)
+pass
 
-# with open(f"interim/paras_{f_suffix}.json", "w", encoding="utf-8") as f:
-#     json.dump(para_df.to_dict(orient="index"), f, ensure_ascii=False)
+
 
 # run english paraphrase generator
 with open(f'interim/paras_{f_suffix}.json', encoding="utf-8") as json_file:
