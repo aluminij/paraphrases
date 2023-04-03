@@ -1,5 +1,7 @@
 import deepl
+import itertools
 import json
+import numpy as np
 import os
 import pandas as pd
 import re
@@ -11,6 +13,7 @@ from sentence_transformers import SentenceTransformer, util
 load_dotenv()
 translator = deepl.Translator(os.getenv("AUTH_KEY"))
 
+model = SentenceTransformer('sentence-transformers/LaBSE')
 
 def format_sentence(s: str) -> str:
     s = re.sub("(?<=\?|\!|\.)\s.*", "", s.replace("paraphrasedoutput: ", ""))
@@ -101,18 +104,21 @@ def create_trans_df(sl_df: pd.DataFrame, en_df: pd.DataFrame, f_name: str) -> pd
             para_df.loc[i] = [sl_df.loc[i, 0], row[0], sl_trans]
     return para_df.dropna(how="all") 
 
-def compare_phrases(f_name: str):
-    model = SentenceTransformer('sentence-transformers/LaBSE')
+def compare_df(f_name:str):
     with open(f'interim/paras_{f_name}.json', encoding="utf-8") as json_file:
         d = json.load(json_file)
     df_sims = pd.DataFrame.from_dict(d, orient="index")
     for i, row in df_sims.iterrows():
         s = [row["sl_source"], row["sl_trans"]]
-        e = model.encode(s)
-        df_sims.loc[i, "cos_sim"] = util.pytorch_cos_sim(e[0], e[1]).item()
+        df_sims.loc[i, "cos_sim"] = compare_phrases(s)
     df_sims = df_sims.sort_values("cos_sim")
     with open(f"processed/paras_{f_name}_sims.json", "w", encoding="utf-8") as f:
         json.dump(df_sims.to_dict(orient="index"), f, ensure_ascii=False)
+
+def compare_phrases(phr_list: list[str]) -> float:
+    e = model.encode(phr_list)
+    return util.pytorch_cos_sim(e[0], e[1]).item()
+    
 
 def slice_files(f_name: str, batch_size: int=100):
     """
@@ -135,20 +141,57 @@ def slice_files(f_name: str, batch_size: int=100):
                 json.dump(df.to_dict(orient="index"), sliced_f, ensure_ascii=False)
                 i += 1
     
+def group_sl_paraphrases(f_name:str) -> pd.DataFrame:
+    df_slo_paras = pd.DataFrame(columns=["phrase", "paraphrase", "sem_sim"])
+    g = {}
+    with open(f'data/translated/trans_{f_name}.json', encoding="utf-8") as json_file:
+        d = json.load(json_file)
+    i = 0
+    for _, v in d.items():
+        para_list = [v[k] for k, val in v.items() if "sl" in k]
+        for combo in itertools.permutations(para_list, 2):
+            df_slo_paras.loc[i, :] = [combo[0], combo[1], 0]
+            i += 1
+    return df_slo_paras
 
-f_suffix = "be"
+f_suffix = "zh"
 
 # prep for aligning
 # split_text(f_suffix)
 # split_text(f_suffix, lang="sl")
 
+sl_paras = group_sl_paraphrases(f_suffix)
+for i, row in sl_paras.iterrows():
+    sl_paras.loc[i, "sem_sim"] = compare_phrases([row["phrase"], row["paraphrase"]])
+pass
+
+with open(f"data/slo_parafraze/sim_computed/{f_suffix}_pairs_sim.json", "w", encoding="utf-8") as j:
+    json.dump(sl_paras.to_dict(orient="index"), j, ensure_ascii=False)
+
+pass
+
+
+
 # translating
-# sl_df = pd.read_csv(f"formatted/sl_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n", encoding="utf-8")
-# en_df = pd.read_csv(f"formatted/en_{f_suffix}_fmt.txt", header=None, sep="\n|\r\n")
-# para_df = create_trans_df(sl_df, en_df, f_suffix)
-i = 7
+with open(f'data/processed/paras_{f_suffix}.json', encoding="utf-8") as json_file:
+    df = pd.DataFrame.from_dict(json.load(json_file), orient="index")
+df = df.assign(sl_para_1=None, sl_para_2=None, sl_para_3=None)
+for i, row in df.iterrows():
+    sl_phrases = [row["sl_source"], row["sl_trans"]]
+    for j in range(1,4):
+        if row[f"en_para_{j}"] == row[f"en_para_{j}"]:
+            t = translator.translate_text(row[f"en_para_{j}"], source_lang="EN", target_lang="SL").text
+            if add_paraphrase(sl_phrases, t):
+                sl_phrases.append(t)
+                df.loc[i, f"sl_para_{j}"] = t
+
+pass
+with open(f"data/translated/trans_{f_suffix}.json", "w", encoding="utf-8") as j:
+    json.dump(df.to_dict(orient="index"), j, ensure_ascii=False)
+
+i = 1
 df_processed = pd.DataFrame()
-while i <= 7:    
+while i <= 4:    
     with open(f'data/sliced/paras_{f_suffix}_{i}.json', encoding="utf-8") as json_file:
         df = pd.DataFrame.from_dict(json.load(json_file), orient="index")
         df_processed = pd.concat([df_processed, en_paraphrase(df)])
