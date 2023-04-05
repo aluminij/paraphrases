@@ -53,13 +53,19 @@ def translate_paraphrases(df: pd.DataFrame) -> pd.DataFrame:
     df_trans = df.copy()
     for i, row in df_trans.iterrows():
         phrase_list = [row["sl_source"]]
+        en_para_list = [f"en_para_{k}" for k in range(1,4)]
+        if not "sl_trans" in df.columns:
+            en_para_list.append("en_source")
+        else:
+            phrase_list.append(row["sl_trans"])
         j = 1
-        for en_phr in ["en_source", "en_para_1", "en_para_2", "en_para_3"]:
-            sl_trans = translator.translate_text(row[en_phr], source_lang="EN", target_lang="SL").text
-            if not sl_trans in phrase_list:
-                df_trans.loc[i, f"sl_para_{j}"] = sl_trans
-                phrase_list.append(sl_trans)
-                j += 1
+        for en_phr in en_para_list:
+            if row[en_phr] == row[en_phr]:
+                sl_trans = translator.translate_text(row[en_phr], source_lang="EN", target_lang="SL").text
+                if not sl_trans in phrase_list:
+                    df_trans.loc[i, f"sl_para_{j}"] = sl_trans
+                    phrase_list.append(sl_trans)
+                    j += 1
     return df_trans
 
 
