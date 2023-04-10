@@ -77,12 +77,11 @@ def pair_sl_paraphrases(f_name:str) -> pd.DataFrame:
         d = json.load(json_file)
     i = 0
     for _, v in d.items():
-        para_list = [v[k] for k, val in v.items() if "sl" in k]
+        para_list = [v[k] for k, val in v.items() if ("sl" in k) and (v[k] == v[k])]
         for combo in itertools.permutations(para_list, 2):
             df_slo_paras.loc[i, :] = [combo[0], combo[1], 0]
             i += 1
     return df_slo_paras
-
 
 
 
