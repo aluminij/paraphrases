@@ -1,5 +1,6 @@
 import deepl
 import json
+import openai
 import os
 import pandas as pd
 import re
@@ -11,10 +12,25 @@ from sentence_transformers import SentenceTransformer, util
 from formatting import format_generated_paraphrase, paraphrase_check
 
 load_dotenv()
-translator = deepl.Translator(os.getenv("AUTH_KEY"))
+translator = deepl.Translator(os.getenv("DEEPL_KEY"))
+openai.api_key = os.getenv("OPEN_AI_KEY")
 
 model = SentenceTransformer('sentence-transformers/LaBSE')
 
+
+def get_paraphrase_chatgpt(phrase: str, num_p: int=2, max_tokens: int=100, lang: str="eng"):
+
+    if lang=="eng":
+        p = f"Create {num_p} paraphrases of {phrase}"
+    elif lang == "si": 
+        p = f"Ustvari {num_p} parafraze {phrase}"
+    
+    # for text-davinci-003
+    response = openai.Completion.create(model="text-davinci-003", prompt=p, max_tokens=max_tokens)
+    r_clean = re.sub("\\n\d?\.?", "", response.choices[0].text)
+    r_list = re.split("(?<=(\.|\!|\?))\W", r_clean)
+    t_list = [re.sub("^\W+", "", x) for x in r_list if len(x) > 1]
+    return t_list
 
 def generate_en_paraphrases(df: pd.DataFrame, n_para: int=3):
     model = AutoModelForSeq2SeqLM.from_pretrained("ramsrigouthamg/t5-large-paraphraser-diverse-high-quality")
@@ -48,7 +64,6 @@ def generate_en_paraphrases(df: pd.DataFrame, n_para: int=3):
                 j += 1
     return df
 
-
 def translate_paraphrases(df: pd.DataFrame) -> pd.DataFrame:
     df_trans = df.copy()
     for i, row in df_trans.iterrows():
@@ -67,8 +82,6 @@ def translate_paraphrases(df: pd.DataFrame) -> pd.DataFrame:
                     phrase_list.append(sl_trans)
                     j += 1
     return df_trans
-
-
 
 def create_trans_df(sl_df: pd.DataFrame, en_df: pd.DataFrame) -> pd.DataFrame:
     """
