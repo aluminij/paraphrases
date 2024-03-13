@@ -10,7 +10,7 @@ def format_generated_paraphrase(s: str) -> str:
 
 def paraphrase_check(p_list: list, p0: str) -> bool:
     """
-    Check if two phrases are different. Strips of symbols and cases.
+    Check if two phrases are different. Controls for symbols and cases.
     """
     p0_stripped = re.sub(r'[^A-Za-z0-9 ]+', '', p0).lower()
     for p in p_list:
@@ -19,8 +19,8 @@ def paraphrase_check(p_list: list, p0: str) -> bool:
             return False
     return True        
 
-
 def read_aligned(f_name: str, lang: str="en") -> pd.DataFrame:
+    """Reads aligned data into dataframe."""
     if lang == "en":
         df = pd.read_csv(f"aligned/en_{f_name}.txt", header=None, sep="\n|\r\n")
     elif lang == "sl":
@@ -70,18 +70,35 @@ def slice_files(f_name: str, batch_size: int=100):
                 json.dump(df.to_dict(orient="index"), sliced_f, ensure_ascii=False)
                 i += 1
     
-def pair_sl_paraphrases(f_name:str) -> pd.DataFrame:
-    df_slo_paras = pd.DataFrame(columns=["phrase", "paraphrase", "sem_sim"])
-    g = {}
-    with open(f'data/translated/trans_{f_name}.json', encoding="utf-8") as json_file:
+def pair_sl_paraphrases() -> pd.DataFrame:
+    """Takes paraphrase batches from json file and sorts them into pairs which are needed for training data."""
+    df_slo_paras = pd.DataFrame(columns=["phrase", "paraphrase"])
+    with open("done_part2.json", encoding="utf-8") as json_file:
         d = json.load(json_file)
     i = 0
     for _, v in d.items():
-        para_list = [v[k] for k, val in v.items() if ("sl" in k) and (v[k] == v[k])]
+        para_list = [val for k, val in v.items() if ("sl" in k) and not val is None]
         for combo in itertools.permutations(para_list, 2):
-            df_slo_paras.loc[i, :] = [combo[0], combo[1], 0]
+            df_slo_paras.loc[i, :] = [combo[0], combo[1]]
             i += 1
     return df_slo_paras
 
 
-
+def remove_similar_phrases(path: str):
+    """Removes phrases with more than 70% word matching."""
+    with open(path, "r", encoding="utf-8") as f:
+        filtered_path = path.split("/")
+        filtered_path = f"{filtered_path[0]}/filtered_{filtered_path[1]}"
+        with open(filtered_path, 'w', encoding="utf-8") as outfile:
+            i = 0
+            new_d = {}
+            for line in f:
+                line_dict = json.loads(line)
+                p1 = list(itertools.chain.from_iterable([l.split() for l in line_dict["phrase"].split(",")]))
+                p2 = list(itertools.chain.from_iterable([l.split() for l in line_dict["paraphrase"].split(",")]))
+                intersect = set(p1).intersection(set(p2))
+                if int(0.7*max(len(p1), len(p2))) >= len(intersect):
+                    new_d[str(i)] = line_dict
+                    json.dump(line_dict, outfile, ensure_ascii=False)
+                    outfile.write('\n')
+                    i += 1
