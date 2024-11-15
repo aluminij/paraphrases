@@ -6,7 +6,10 @@ import json
 
 metric_btscore = evaluate.load("bertscore")
 
-with open("data/sample10_phrases.json", "r", encoding="utf-8") as f: 
+#with open("data/sample10_phrases.json", "r", encoding="utf-8") as f: 
+#    phrases = json.load(f)
+
+with open("data/gen_phrases.json", "r", encoding="utf-8") as f: 
     phrases = json.load(f)
 
 def get_metrics_df(phrases: dict, metrics: list[str]) -> pd.DataFrame:
