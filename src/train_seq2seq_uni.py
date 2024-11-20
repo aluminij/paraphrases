@@ -1,13 +1,20 @@
 import os
+from typing import Literal
+
 import code_bert_score
+import evaluate
 import numpy as np
 from datasets import load_dataset
-from typing import Literal
-import evaluate
-from transformers import DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer, T5ForConditionalGeneration, T5Tokenizer, MT5ForConditionalGeneration, MT5Tokenizer
+from transformers import (DataCollatorForSeq2Seq, MT5ForConditionalGeneration,
+                          MT5Tokenizer, Seq2SeqTrainer,
+                          Seq2SeqTrainingArguments, T5ForConditionalGeneration,
+                          T5Tokenizer)
 
 
-def train_model(model_name: Literal["sloT5", "mT5"], metric_name: Literal["rouge", "sloberta", "mbert"]):
+def train_model(
+    model_name: Literal["sloT5", "mT5"],
+    metric_name: Literal["rouge", "sloberta", "mbert"],
+):
     data_files = {
         "train": f"paired_1_datasets/train_largest.jsonl",
         "test": f"paired_1_datasets/test_largest.jsonl",
@@ -43,13 +50,14 @@ def train_model(model_name: Literal["sloT5", "mT5"], metric_name: Literal["rouge
 
     prefix = "generiraj parafrazo: "
 
-    # Convert data from strings to model-specific format (truncate inputs beyond `max_length` subwords)
     def preprocess_function(examples):
         inputs = [prefix + doc for doc in examples["phrase"]]
         model_inputs = tokenizer(inputs, max_length=128, truncation=True)
 
         with tokenizer.as_target_tokenizer():
-            labels = tokenizer(examples["paraphrase"], max_length=max_seq_length, truncation=True)
+            labels = tokenizer(
+                examples["paraphrase"], max_length=max_seq_length, truncation=True
+            )
 
         model_inputs["labels"] = labels["input_ids"]
         return model_inputs
@@ -58,22 +66,36 @@ def train_model(model_name: Literal["sloT5", "mT5"], metric_name: Literal["rouge
     data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer, model=model)
 
     def compute_metrics(eval_pred):
-        predictions, labels = eval_pred # eval_pred.inputs je None
+        predictions, labels = eval_pred  # eval_pred.inputs je None
         # Replace -100 in the labels as we can't decode them (-100 = "ignore label")
         predictions = np.where(predictions != -100, predictions, tokenizer.pad_token_id)
         decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
         labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
-        decoded_labels = list(map(lambda _seq: [_seq], tokenizer.batch_decode(labels, skip_special_tokens=True)))
+        decoded_labels = list(
+            map(
+                lambda _seq: [_seq],
+                tokenizer.batch_decode(labels, skip_special_tokens=True),
+            )
+        )
 
         if metric_name == "rouge":
-            r = metric.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True, rouge_types=['rouge1', 'rouge2', 'rougeL'])
-        elif metric_name == "sloberta": 
-            sl_r = code_bert_score.score(cands=decoded_preds, refs=decoded_labels, model_type="EMBEDDIA/sloberta")
+            r = metric.compute(
+                predictions=decoded_preds,
+                references=decoded_labels,
+                use_stemmer=True,
+                rouge_types=["rouge1", "rouge2", "rougeL"],
+            )
+        elif metric_name == "sloberta":
+            sl_r = code_bert_score.score(
+                cands=decoded_preds, refs=decoded_labels, model_type="EMBEDDIA/sloberta"
+            )
             r = dict()
             for i, k in enumerate(["precision", "recall", "f1", "f3"]):
                 r[k] = np.mean(sl_r[i].flatten().tolist())
         elif metric_name == "mbert":
-            result = metric.compute(predictions=decoded_preds, references=decoded_labels, lang="sl")
+            result = metric.compute(
+                predictions=decoded_preds, references=decoded_labels, lang="sl"
+            )
             r = dict()
             for _, k in enumerate(["precision", "recall", "f1"]):
                 r[k] = np.mean(result[k])
@@ -112,7 +134,7 @@ def train_model(model_name: Literal["sloT5", "mT5"], metric_name: Literal["rouge
         eval_dataset=tokenized_paras["val"],
         tokenizer=tokenizer,
         data_collator=data_collator,
-        compute_metrics=compute_metrics
+        compute_metrics=compute_metrics,
     )
 
     trainer.train()
@@ -125,7 +147,8 @@ def train_model(model_name: Literal["sloT5", "mT5"], metric_name: Literal["rouge
     lines.append(f"Val results: {val_results} | ")
     lines.append(f"Test results: {test_results.metrics} | ")
 
-    with open(f'metrics_{exp}.txt', 'w') as f:
+    with open(f"metrics_{exp}.txt", "w") as f:
         f.writelines(lines)
 
-#train_model("sloT5", "rouge")
+
+# train_model("sloT5", "rouge")
