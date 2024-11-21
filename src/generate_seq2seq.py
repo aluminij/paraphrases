@@ -9,9 +9,8 @@ df = pd.read_json("data/test_largest.jsonl", lines=True)
 
 metric_btscore = evaluate.load("bertscore")
 
-model_path = "src/paraphrase/model/mT5-largest-sloberta"
-tokenizer = MT5Tokenizer.from_pretrained(model_path)
-model = MT5ForConditionalGeneration.from_pretrained(model_path)
+tokenizer = T5Tokenizer.from_pretrained("aluminij/paragen_sloT5")
+model = T5ForConditionalGeneration.from_pretrained("aluminij/paragen_sloT5")
 prefix = "generiraj parafrazo: "
 
 gen_text = pd.DataFrame()
